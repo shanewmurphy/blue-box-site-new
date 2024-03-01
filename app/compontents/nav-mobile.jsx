@@ -1,7 +1,7 @@
 export default function MobileNav() {
   return (
     <div>
-      <div className="absolute w-10/12 mx-auto h-9 bg-mywhite left-1/2 top-6 transform -translate-x-1/2 -translate-y-1/2 mt-6 rounded-3xl flex items-center xl:invisible lg:invisible md:invisible sm:visible">
+      <div className="absolute w-10/12 mx-auto h-12 bg-mywhite left-1/2 top-6 transform -translate-x-1/2 -translate-y-1/2 mt-6 rounded-3xl flex items-center xl:invisible lg:invisible md:invisible sm:visible">
         <div className="flex w-[95%] mx-auto items-center justify-between px-2">
           <div>
             <LogoMobile />
@@ -16,8 +16,8 @@ export default function MobileNav() {
 function LogoMobile() {
   return (
     <svg
-      width="26"
-      height="26"
+      width="32"
+      height="32"
       viewBox="0 0 24 23"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
