@@ -16,8 +16,8 @@ export default function MobileNav() {
 function LogoMobile() {
   return (
     <svg
-      width="34"
-      height="33"
+      width="36"
+      height="35"
       viewBox="0 0 24 23"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
