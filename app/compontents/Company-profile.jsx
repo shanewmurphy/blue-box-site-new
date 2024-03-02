@@ -46,12 +46,12 @@ const CompanyProfile = () => {
     <div className="w-10/12 mx-auto xl:my-64 lg:my-60 md:my-64 sm:my-32">
       <div className="flex lg:flex-row laptop:flex-row md:flex-col sm:flex-col gap-8">
         <div className="basis-3/12">
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center">
             <LogoPage />
           </div>
         </div>
         <div className="basis-9/12">
-          <h1 className="large-animation-1 font-semibold text-myblue lg:text-2xl md:text-2xl sm:text-xl">
+          <h1 className="large-animation-1 font-semibold text-myblue lg:text-2xl md:text-2xl sm:text-2xl">
             Blue Box Storage offers secure and convenient storage solutions in
             Cork, Ireland, utilising shipping containers as storage units. With
             a commitment to security and sustainability, our facility is
