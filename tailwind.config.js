@@ -11,6 +11,7 @@ module.exports = {
       mywhite: "#fcfcfc",
       myblack: "#3A3A3A",
       btnbgcolour: "#d7dae5",
+      cardbggray: "#f7f7f7",
     },
     screens: {
       sm: "358px",

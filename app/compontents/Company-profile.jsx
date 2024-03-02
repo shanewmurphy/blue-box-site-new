@@ -19,7 +19,7 @@ const CompanyProfile = () => {
         animation: {
           by: "lines",
           stagger: 0.075,
-          duration: 0.8,
+          duration: 0.7,
           ease: "power2",
           transformOrigin: "left top",
           animateProps: { rotate: 30, opacity: 0 },
@@ -43,7 +43,7 @@ const CompanyProfile = () => {
   }, []);
 
   return (
-    <div className="w-10/12 mx-auto xl:my-64 lg:my-60 md:my-64 sm:my-32">
+    <div className="lg:w-10/12 md:w-11/12 sm:w-11/12 mx-auto xl:my-[20%] lg:my-[20%] md:my-[20%] sm:my-[30%]">
       <div className="flex lg:flex-row laptop:flex-row md:flex-col sm:flex-col gap-8">
         <div className="basis-3/12">
           <div className="flex justify-center items-center">

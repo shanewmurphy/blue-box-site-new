@@ -3,6 +3,7 @@ import { useEffect } from "react";
 
 import Image from "next/image";
 import HeroHomepage from "./compontents/Hero-hmepage";
+
 import CompanyProfile from "./compontents/Company-profile";
 
 export default function Home() {

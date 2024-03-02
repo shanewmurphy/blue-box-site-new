@@ -9,8 +9,8 @@ export default function HeroHomepage() {
                 Secure, Convenient, <br /> and Affordable Storage Solutions 
               </h1>
               <div className="flex lg:justify-start laptop:justify-start  md:justify-center sm:justify-center lg:mt-8 md:mt-8 sm:mt-7">
-                <button className="lg:w-60 md:w-64 sm:w-60 py-3 bg-btnbgcolour font-semibold rounded-2xl lg:text-lg md:text-lg sm:text-base flex items-center justify-center">
-                  Start Storing Today
+                <button className="lg:w-60 md:w-60 sm:w-60 py-4 bg-btnbgcolour font-semibold rounded-2xl lg:text-lg md:text-lg sm:text-base flex items-center justify-center">
+                  Select Container
                   <span className="inline-flex items-center justify-center ml-2">
                     <IconArrowDown />
                   </span>
@@ -35,8 +35,8 @@ export default function HeroHomepage() {
 function IconArrowDown() {
   return (
     <svg
-      width="30"
-      height="30"
+      width="25"
+      height="25"
       viewBox="0 0 30 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
