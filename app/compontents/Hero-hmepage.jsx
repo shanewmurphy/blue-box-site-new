@@ -2,14 +2,14 @@ export default function HeroHomepage() {
   return (
     <div>
       <div className="bg-myblue w-full antialiased">
-        <div className="w-5/6 mx-auto lg:py-[12%] md:py-[15%] sm:py-[32%]">
+        <div className="lg:w-5/6 laptop:w-5/6 sm:w-11/12 mx-auto lg:py-[12%] md:py-[15%] sm:py-[32%]">
           <div className="flex lg:flex-row md:flex-col sm:flex-col gap-6">
             <div className="basis-2/5">
-              <h1 className="text-mywhite font-bold xl:text-5xl lg:text-3xl laptop:text-5xl md:text-4xl sm:text-2xl lg:text-left laptop:text-left md:text-center sm:text-center">
+              <h1 className="text-mywhite font-bold xl:text-6xl lg:text-3xl laptop:text-6xl md:text-4xl sm:text-2xl lg:text-left laptop:text-left md:text-center sm:text-center">
                 Secure, Convenient, <br /> and Affordable Storage Solutions 
               </h1>
               <div className="flex lg:justify-start laptop:justify-start  md:justify-center sm:justify-center lg:mt-8 md:mt-8 sm:mt-7">
-                <button className="lg:w-60 md:w-60 sm:w-60 py-4 bg-btnbgcolour font-semibold rounded-2xl lg:text-lg md:text-lg sm:text-base flex items-center justify-center">
+                <button className="lg:w-60 md:w-60 sm:w-60 py-4 bg-btnbgcolour text-btntextblack font-semibold rounded-2xl lg:text-lg md:text-lg sm:text-base flex items-center justify-center">
                   Select Container
                   <span className="inline-flex items-center justify-center ml-2">
                     <IconArrowDown />

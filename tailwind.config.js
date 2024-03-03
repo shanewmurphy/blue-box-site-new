@@ -11,6 +11,7 @@ module.exports = {
       mywhite: "#fcfcfc",
       myblack: "#3A3A3A",
       btnbgcolour: "#d7dae5",
+      btntextblack: "#454546",
       cardbggray: "#f7f7f7",
     },
     screens: {
@@ -22,13 +23,13 @@ module.exports = {
     },
     fontSize: {
       "6xl": [
-        "3.75rem",
+        "2.55rem",
         {
           lineHeight: "3rem",
         },
       ],
       "5xl": [
-        "2.6rem",
+        "2.15rem",
         {
           lineHeight: "3rem",
         },
@@ -51,14 +52,14 @@ module.exports = {
           lineHeight: "2rem;",
         },
       ],
-      "text-xl": [
-        "1.25rem",
+      xl: [
+        "1.25rem;",
         {
           lineHeight: "2rem;",
         },
       ],
-      "text-lg": [
-        "1.125rem",
+      lg: [
+        "1.125rem;",
         {
           lineHeight: "1.75rem;",
         },
