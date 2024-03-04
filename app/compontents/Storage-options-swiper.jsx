@@ -50,6 +50,7 @@ export default function StorageOptionsSwiper() {
             spaceBetween={20}
             slidesPerView={"auto"}
             grabCursor={true}
+            speed={2000}
             autoplay={{
               delay: 8500,
               disableOnInteraction: false,
@@ -80,7 +81,7 @@ export default function StorageOptionsSwiper() {
                   <SwiperSlide key={destail.id}>
                     <div className="bg-cardbggray py-6 px-8 rounded-lg">
                       <div>
-                        <h5 className="md:text-5xl sm:text-4xl text-myblue text-center font-bold mb-1">
+                        <h5 className="md:text-5xl sm:text-5xl text-myblue text-center font-black mb-1">
                           {destail.size}
                         </h5>
                       </div>
@@ -89,8 +90,8 @@ export default function StorageOptionsSwiper() {
                           <img src={destail.imgURL} />
                         </picture>
                       </div>
-                      <div>
-                        <p className="text-center text-myblack text-sm font-medium mt-3">
+                      <div className="md:w-8/12 sm:w-11/12 mx-auto">
+                        <p className="text-center text-myblack md:text-lg sm:text-xs font-medium mt-3">
                           {destail.description}
                         </p>
                       </div>

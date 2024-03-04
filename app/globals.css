@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper-slide {
+  width: 80% !important;
+}
 .animate-text {
   opacity: 0;
   transform: translateY(50px);
