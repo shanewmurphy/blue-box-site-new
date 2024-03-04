@@ -38,7 +38,7 @@ export default function StorageOptionsSwiper() {
           <h3 className="laptop:text-6xl md:text-5xl sm:text-3xl  text-myblue text-center font-bold mb-1">
             Storage Containers
           </h3>
-          <p className="laptop:w-9/12 md:w-10/12 sm:w-10/12 mx-auto text-center font-semibold laptop:text-xl md:text-lg sm:text-base text-myblack">
+          <p className="laptop:w-9/12 md:w-10/12 sm:w-11/12 mx-auto text-center font-semibold laptop:text-xl md:text-lg sm:text-lg text-myblack">
             We offer a wide range of container sizes options 10FT, 20FT and 40FT
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function StorageOptionsSwiper() {
                   <SwiperSlide key={destail.id}>
                     <div className="bg-cardmobilebgcolor py-8 px-4 rounded-lg">
                       <div>
-                        <h5 className="md:text-5xl sm:text-5xl text-myblue text-center font-black mb-1">
+                        <h5 className="md:text-6xl sm:text-5xl text-myblue text-center font-black mb-1">
                           {destail.size}
                         </h5>
                       </div>
@@ -97,15 +97,10 @@ export default function StorageOptionsSwiper() {
                       </div>
                       <div className="grid grid-rows-2 justify-items-center gap-0 mt-8 pb-6">
                         <div>
-                          <buttom className="px-10 py-3 rounded-xl text-mywhite text-sm font-medium bg-myblue hover:bg-hoverbtnblue border-2 border-myblue">
+                          <buttom className="px-10 py-3 rounded-xl text-mywhite text-base font-medium bg-myblue hover:bg-hoverbtnblue border-2 border-myblue">
                             Get Quote
                           </buttom>
                         </div>
-                        {/* <div className="mt-1">
-                          <button className="px-10 py-3 rounded-xl text-myblue hover:text-mywhite text-sm font-medium border border-myblue hover:hover:bg-myblue">
-                            Learn More
-                          </button>
-                        </div> */}
                       </div>
                     </div>
                   </SwiperSlide>

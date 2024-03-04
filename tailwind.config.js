@@ -31,7 +31,7 @@ module.exports = {
         },
       ],
       "6xl": [
-        "2.55rem",
+        "2.6rem",
         {
           lineHeight: "3rem",
         },
