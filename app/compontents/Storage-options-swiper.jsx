@@ -38,7 +38,7 @@ export default function StorageOptionsSwiper() {
           <h3 className="laptop:text-6xl md:text-5xl sm:text-3xl  text-myblue text-center font-bold mb-1">
             Storage Containers
           </h3>
-          <p className="laptop:w-9/12 md:w-10/12 sm:w-10/12 mx-auto text-center font-medium laptop:text-xl md:text-lg sm:text-base text-myblack">
+          <p className="laptop:w-9/12 md:w-10/12 sm:w-10/12 mx-auto text-center font-semibold laptop:text-xl md:text-lg sm:text-base text-myblack">
             We offer a wide range of container sizes options 10FT, 20FT and 40FT
           </p>
         </div>
@@ -79,7 +79,7 @@ export default function StorageOptionsSwiper() {
               <div className="my-swiper">
                 {containerData.map((destail) => (
                   <SwiperSlide key={destail.id}>
-                    <div className="bg-cardbggray py-6 px-8 rounded-lg">
+                    <div className="bg-cardmobilebgcolor py-6 px-4 rounded-lg">
                       <div>
                         <h5 className="md:text-5xl sm:text-5xl text-myblue text-center font-black mb-1">
                           {destail.size}
@@ -91,9 +91,21 @@ export default function StorageOptionsSwiper() {
                         </picture>
                       </div>
                       <div className="md:w-8/12 sm:w-11/12 mx-auto">
-                        <p className="text-center text-myblack md:text-lg sm:text-xs font-medium mt-3">
+                        <p className="text-center text-myblack md:text-lg sm:text-sm font-semibold mt-3">
                           {destail.description}
                         </p>
+                      </div>
+                      <div className="grid grid-rows-2 justify-items-center mt-6">
+                        <div>
+                          <buttom className="px-10 py-2 rounded-xl text-mywhite text-sm font-medium bg-myblue hover:bg-hoverbtnblue border border-myblue">
+                            Get Quote
+                          </buttom>
+                        </div>
+                        <div className="mt-1">
+                          <button className="px-10 py-2 rounded-xl text-myblue text-sm font-medium border border-myblue hover:hover:bg-myblue">
+                            Learn More
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </SwiperSlide>
