@@ -43,7 +43,7 @@ const CompanyProfile = () => {
   }, []);
 
   return (
-    <div className="lg:w-[10/12] md:w-11/12 sm:w-11/12 mx-auto xl:my-[20%] lg:my-[20%] md:my-[20%] sm:my-[30%]">
+    <div className="lg:w-10/12 md:w-11/12 sm:w-11/12 mx-auto xl:my-[20%] lg:my-[20%] laptop:my-[10%] md:my-[20%] sm:my-[30%]">
       <div className="flex lg:flex-row laptop:flex-row md:flex-col sm:flex-col gap-8">
         <div className="basis-3/12">
           <div className="flex justify-center items-center">

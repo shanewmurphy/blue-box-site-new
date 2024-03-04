@@ -31,12 +31,12 @@ export default function DesktopStorageContainers() {
 
   return (
     <div>
-      <div className="lg:w-10/12 xl:visible lg:visable laptop:invisable md:invisible sm:invisible mx-auto">
+      <div className="lg:w-10/12 laptop:w-11/12 mb-32 xl:block lg:block laptop:hidden md:hidden sm:hidden mx-auto">
         <div className="mb-6">
           <h3 className="lg:text-6xl md:text-5xl sm:text-4xl text-myblue text-center font-bold mb-1">
             Storage Containers
           </h3>
-          <div className="lg:w-8/12 mx-auto">
+          <div className="lg:w-8/12 laptop:w-9/12 mx-auto">
             <p className="text-center font-medium text-base text-myblack">
               We offer a wide range of container types, sizes. Whether you
               require short-term or long-term storage, we have the flexibility
@@ -44,10 +44,10 @@ export default function DesktopStorageContainers() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-8 antialiased">
-          <div className="bg-cardbggray card-animation rounded-lg py-12 px-7">
+        <div className="grid grid-cols-3 xl:gap-8 lg:gap-4 laptop:gap-4 antialiased">
+          <div className="bg-cardbggray card-animation rounded-xl py-12 px-7">
             <div>
-              <h4 className="text-center font-extrabold text-myblue lg:text-7xl mb-4">
+              <h4 className="text-center font-extrabold text-myblue lg:text-7xl laptop:text-6xl mb-4">
                 10FT
               </h4>
             </div>
@@ -80,9 +80,9 @@ export default function DesktopStorageContainers() {
               </div>
             </div>
           </div>
-          <div className="bg-cardbggray card-animation rounded-lg py-12 px-7">
+          <div className="bg-cardbggray card-animation rounded-xl py-12 px-7">
             <div>
-              <h4 className="text-center font-extrabold text-myblue lg:text-7xl mb-4">
+              <h4 className="text-center font-extrabold text-myblue lg:text-7xl laptop:text-6xl mb-4">
                 20FT
               </h4>
             </div>
@@ -114,9 +114,9 @@ export default function DesktopStorageContainers() {
               </div>
             </div>
           </div>
-          <div className="bg-cardbggray card-animation rounded-lg py-12 px-7">
+          <div className="bg-cardbggray card-animation rounded-xl py-12 px-7">
             <div>
-              <h4 className="text-center font-extrabold text-myblue lg:text-7xl mb-4">
+              <h4 className="text-center font-extrabold text-myblue lg:text-7xl laptop:text-6xl mb-4">
                 40FT
               </h4>
             </div>

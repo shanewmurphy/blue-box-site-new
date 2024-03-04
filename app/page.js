@@ -5,6 +5,7 @@ import Image from "next/image";
 import HeroHomepage from "./compontents/Hero-hmepage";
 import CompanyProfile from "./compontents/Company-profile";
 import DesktopStorageContainers from "./compontents/Storage-containers";
+import StorageOptionsSwiper from "./compontents/Storage-options-swiper";
 
 export default function Home() {
   useEffect(() => {
@@ -24,7 +25,9 @@ export default function Home() {
       <div>
         <DesktopStorageContainers />
       </div>
-      <div className="h-[100vh]"></div>
+      <div>
+        <StorageOptionsSwiper />
+      </div>
     </div>
   );
 }
