@@ -13,6 +13,7 @@ module.exports = {
       btnbgcolour: "#d7dae5",
       btntextblack: "#454546",
       cardbggray: "#f7f7f7",
+      hoverbtnblue: "#27307f",
     },
     screens: {
       sm: "358px",
@@ -22,6 +23,12 @@ module.exports = {
       xl: "1280px",
     },
     fontSize: {
+      "7xl": [
+        "3.2rem",
+        {
+          lineHeight: "2.8rem",
+        },
+      ],
       "6xl": [
         "2.55rem",
         {
@@ -62,6 +69,18 @@ module.exports = {
         "1.125rem;",
         {
           lineHeight: "1.75rem;",
+        },
+      ],
+      sm: [
+        "0.875rem;",
+        {
+          lineHeight: "1.25rem;",
+        },
+      ],
+      xs: [
+        "0.85rem;",
+        {
+          lineHeight: "1rem;",
         },
       ],
     },

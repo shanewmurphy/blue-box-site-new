@@ -24,6 +24,7 @@ export default function Home() {
       <div>
         <DesktopStorageContainers />
       </div>
+      <div className="h-[100vh]"></div>
     </div>
   );
 }
