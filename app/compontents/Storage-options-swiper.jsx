@@ -79,7 +79,7 @@ export default function StorageOptionsSwiper() {
               <div className="my-swiper">
                 {containerData.map((destail) => (
                   <SwiperSlide key={destail.id}>
-                    <div className="bg-cardmobilebgcolor py-6 px-4 rounded-lg">
+                    <div className="bg-cardmobilebgcolor py-8 px-4 rounded-lg">
                       <div>
                         <h5 className="md:text-5xl sm:text-5xl text-myblue text-center font-black mb-1">
                           {destail.size}
@@ -95,17 +95,17 @@ export default function StorageOptionsSwiper() {
                           {destail.description}
                         </p>
                       </div>
-                      <div className="grid grid-rows-2 justify-items-center mt-6">
+                      <div className="grid grid-rows-2 justify-items-center gap-0 mt-8 pb-6">
                         <div>
-                          <buttom className="px-10 py-2 rounded-xl text-mywhite text-sm font-medium bg-myblue hover:bg-hoverbtnblue border border-myblue">
+                          <buttom className="px-10 py-3 rounded-xl text-mywhite text-sm font-medium bg-myblue hover:bg-hoverbtnblue border-2 border-myblue">
                             Get Quote
                           </buttom>
                         </div>
-                        <div className="mt-1">
-                          <button className="px-10 py-2 rounded-xl text-myblue text-sm font-medium border border-myblue hover:hover:bg-myblue">
+                        {/* <div className="mt-1">
+                          <button className="px-10 py-3 rounded-xl text-myblue hover:text-mywhite text-sm font-medium border border-myblue hover:hover:bg-myblue">
                             Learn More
                           </button>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </SwiperSlide>
