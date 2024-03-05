@@ -5,7 +5,7 @@ export default function HeroHomepage() {
         <div className="lg:w-5/6 laptop:w-5/6 sm:w-11/12 mx-auto lg:py-[12%] md:py-[15%] sm:py-[32%]">
           <div className="flex lg:flex-row md:flex-col sm:flex-col gap-6">
             <div className="basis-2/5">
-              <h1 className="text-mywhite font-bold xl:text-6xl lg:text-3xl laptop:text-6xl md:text-4xl sm:text-2xl lg:text-left laptop:text-left md:text-center sm:text-center">
+              <h1 className="text-mywhite font-bold xl:text-6xl lg:text-4xl laptop:text-6xl md:text-4xl sm:text-2xl lg:text-left laptop:text-left md:text-center sm:text-center">
                 Secure, Convenient, <br /> and Affordable Storage Solutions 
               </h1>
               <div className="flex lg:justify-start laptop:justify-start  md:justify-center sm:justify-center lg:mt-8 md:mt-8 sm:mt-7">

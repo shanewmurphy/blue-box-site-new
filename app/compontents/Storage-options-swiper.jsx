@@ -33,13 +33,13 @@ export default function StorageOptionsSwiper() {
   const swiperRef = useRef();
   return (
     <div>
-      <div className="w-11/12 mx-auto laptop:my-[30%] md:my-[30%] sm:my-[60%]">
+      <div className="w-11/12 mx-auto laptop:my-[30%] md:my-[30%] sm:my-[60%] xl:hidden lg:hidden laptop:hidden md:visible sm:visible">
         <div className="laotop:w-10/12  xl:hidden lg:hidden laptop:hidden md:visible sm:visible">
           <h3 className="laptop:text-6xl md:text-5xl sm:text-3xl  text-myblue text-center font-bold mb-1">
             Storage Containers
           </h3>
           <p className="laptop:w-9/12 md:w-10/12 sm:w-11/12 mx-auto text-center font-semibold laptop:text-xl md:text-lg sm:text-lg text-myblack">
-            We offer a wide range of container sizes options 10FT, 20FT and 40FT
+            We offer a range of container options sizes 10FT, 20FT and 40FT
           </p>
         </div>
         <div className="mt-6">
