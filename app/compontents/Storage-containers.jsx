@@ -36,7 +36,7 @@ export default function DesktopStorageContainers() {
           <h3 className="lg:text-6xl md:text-5xl sm:text-4xl text-myblue text-center font-bold mb-1">
             Storage Containers
           </h3>
-          <div className="lg:w-8/12 laptop:w-9/12 mx-auto">
+          <div className="lg:w-7/12 laptop:w-9/12 mx-auto">
             <p className="text-center font-medium text-base text-myblack">
               We offer a wide range of container types, sizes. Whether you
               require short-term or long-term storage, we have the flexibility
