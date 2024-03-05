@@ -7,9 +7,9 @@ export default function CollectionService() {
             Convenient Pick-Up Service Let Us Come to You!
           </h3>
           <p className="lg:text-base font-medium text-myblack mt-2">
-            Don't have time to drop off your belongings? No problem! With Blue
-            Box Storage&apos;s pickup service, we&apos;ll collect your items
-            right from your doorstep, saving you time and effort
+            Don&apos;t have time to drop off your belongings? No problem! With
+            Blue Box Storage&apos;s pickup service, we&apos;ll collect your
+            items right from your doorstep, saving you time and effort
           </p>
           <h6 className="lg:text-xl md:text-xl sm:text-lg text-myblack font-bold mt-6">
             Simply Select this Option in Quotation Form
