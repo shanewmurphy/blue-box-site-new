@@ -24,7 +24,7 @@ export default function Security() {
               <h5 className="lg:text-2xl md:text-xl sm:text-xl font-semibold text-myblue mb-1">
                 Surveillance Systems
               </h5>
-              <p className="lg:text-sm md:text-sm sm:text-xs text-myblack font-medium lg:w-[70%] md:w-[70%] sm:w-[70%]">
+              <p className="lg:text-sm md:text-sm sm:text-xs text-myblack font-normal lg:w-[70%] md:w-[70%] sm:w-[70%]">
                 With our top-notch security measures, you can trust that your
                 belongings are safe with us.
               </p>
