@@ -6,6 +6,7 @@ import HeroHomepage from "./compontents/Hero-hmepage";
 import CompanyProfile from "./compontents/Company-profile";
 import DesktopStorageContainers from "./compontents/Storage-containers";
 import StorageOptionsSwiper from "./compontents/Storage-options-swiper";
+import Security from "./compontents/Security";
 import CollectionService from "./compontents/Collection-service";
 
 export default function Home() {
@@ -28,6 +29,9 @@ export default function Home() {
       </div>
       <div>
         <StorageOptionsSwiper />
+      </div>
+      <div>
+        <Security />
       </div>
       <div>
         <CollectionService />

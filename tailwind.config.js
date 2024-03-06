@@ -15,6 +15,7 @@ module.exports = {
       cardbggray: "#f7f7f7",
       hoverbtnblue: "#27307f",
       cardmobilebgcolor: "#F6F6F6",
+      cardSecuritybkg: "#f8f8fb",
     },
     screens: {
       sm: "358px",

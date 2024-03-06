@@ -2,7 +2,7 @@ export default function CollectionService() {
   return (
     <div className="lg:w-10/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto lg:my-[25%] laptop:my-[25%] md:my-[30%] sm:my-[60%] antialiased">
       <div className="grid lg:grid-cols-2 gap-12">
-        <div className="lg:w-[85%] md:w-[100%] sm:w-[100%]">
+        <div className="lg:w-[90%] laptop:w-[95%] md:w-[100%] sm:w-[100%]">
           <h3 className="lg:text-4xl md:text-5xl sm:text-3xl text-myblue font-bold">
             Convenient Pick-Up Service Let Us Come to You!
           </h3>
@@ -19,13 +19,16 @@ export default function CollectionService() {
             container being rented.
           </p>
           <div className="mt-6">
-            <button className="py-2 px-8 font-semibold border border-myblue rounded-lg lg:text-base md:text-base sm:text-sm text-myblue cursor-pointer">
+            <button className="py-3 px-9 font-semibold rounded-xl bg-myblue text-mywhite lg:text-base md:text-base sm:text-base cursor-pointer">
               Learn More
             </button>
           </div>
         </div>
         <div className="bg-myblue h-[100%] rounded-xl p-8">
-          <img src="/Collection-imgs/BlueBox_Van-min.png" />
+          <img
+            src="/Collection-imgs/BlueBox_Van-min.png"
+            alt="Bluxbox Collection Service"
+          />
         </div>
       </div>
     </div>

@@ -35,7 +35,7 @@ export default function StorageOptionsSwiper() {
     <div>
       <div className="w-11/12 mx-auto laptop:my-[30%] md:my-[30%] sm:my-[60%] xl:hidden lg:hidden laptop:hidden md:visible sm:visible">
         <div className="laotop:w-10/12  xl:hidden lg:hidden laptop:hidden md:visible sm:visible">
-          <h3 className="laptop:text-6xl md:text-5xl sm:text-3xl  text-myblue text-center font-bold mb-1">
+          <h3 className="lg:text-6xl laptop:text-6xl md:text-5xl sm:text-3xl  text-myblue text-center font-bold mb-1">
             Storage Containers
           </h3>
           <p className="laptop:w-9/12 md:w-10/12 sm:w-11/12 mx-auto text-center font-semibold laptop:text-xl md:text-lg sm:text-lg text-myblack">
@@ -81,7 +81,7 @@ export default function StorageOptionsSwiper() {
                   <SwiperSlide key={destail.id}>
                     <div className="bg-cardmobilebgcolor py-8 px-4 rounded-lg xl:hidden lg:hidden laptop:hidden md:visible sm:visible">
                       <div>
-                        <h5 className="md:text-6xl sm:text-6xl text-myblue text-center font-black mb-1">
+                        <h5 className="md:text-7xl sm:text-6xl text-myblue text-center font-black mb-1">
                           {destail.size}
                         </h5>
                       </div>
