@@ -79,7 +79,7 @@ export default function StorageOptionsSwiper() {
               <div className="my-swiper">
                 {containerData.map((destail) => (
                   <SwiperSlide key={destail.id}>
-                    <div className="bg-cardmobilebgcolor py-8 px-4 rounded-lg xl:hidden lg:hidden laptop:hidden md:visible sm:visible">
+                    <div className="bg-myblue py-8 px-4 rounded-lg xl:hidden lg:hidden laptop:hidden md:visible sm:visible">
                       <div>
                         <h5 className="md:text-7xl sm:text-6xl text-myblue text-center font-black mb-1">
                           {destail.size}
