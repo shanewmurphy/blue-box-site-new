@@ -7,7 +7,7 @@ export default function Security() {
         </h4>
       </div>
       <div className="bg-cardSecuritybkg lg:h-[500px] md:h-[550px] sm:h-[380px] lg:bg-[url('/Security-imgs/Fencing-lg.png')] md:bg-[url('/Security-imgs/Fencing-tablet.png')] sm:bg-[url('/Security-imgs/Fencing-tablet.png')] bg-no-repeat bg-right-bottom lg:bg-cover md:bg-contain sm:bg-contain rounded-xl mt-6">
-        <div className="lg:p-16 md:p-8 sm:p-6">
+        <div className="lg:py-8 md:p-8 sm:p-6">
           <h5 className="lg:text-2xl md:text-xl sm:text-xl font-semibold text-myblue mb-1">
             Fencing and Perimeter Security
           </h5>
@@ -18,7 +18,7 @@ export default function Security() {
         </div>
       </div>
       <div className="grid lg:grid-cols-2 lg:gap-6 mt-6">
-        <div className="bg-cardSecuritybkg lg:h-[300px] md:h-[300px] sm:h-[190px] rounded-xl lg:bg-[url('/Security-imgs/CCTV-B.png')] md:bg-[url('/Security-imgs/CCTV-B.png')] sm:bg-[url('/Security-imgs/CCTV-B.png')]  bg-no-repeat bg-right-bottom bg-contain">
+        <div className="bg-cardSecuritybkg lg:h-[300px] md:h-[300px] sm:h-[190px] rounded-xl lg:bg-[url('/Security-imgs/CCTV-B.png')] md:bg-[url('/Security-imgs/CCTV-B.png')] sm:bg-[url('/Security-imgs/CCTV-B.png')] bg-no-repeat bg-right-bottom bg-contain">
           <div className="grid content-end lg:h-72 md:h-64 sm:h-44 lg:p-8 md:p-8 sm:p-4">
             <div>
               <h5 className="lg:text-2xl md:text-xl sm:text-xl font-semibold text-myblue mb-1">
@@ -31,7 +31,18 @@ export default function Security() {
             </div>
           </div>
         </div>
-        <div>BBB</div>
+        <div className="bg-cardSecuritybkg lg:h-[300px] md:h-[300px] sm:h-[190px] rounded-xl lg:bg-[url('/Security-imgs/Bluebox-jacket_C.png')] md:bg-[url('/Security-imgs/Bluebox-jacket_C.png')] sm:bg-[url('/Security-imgs/Bluebox-jacket_C.png')] bg-no-repeat bg-right-bottom bg-contain lg:mt-0 sm:mt-6">
+          <div className="grid content-end lg:h-72 md:h-64 sm:h-44 lg:p-8 md:p-8 sm:p-4">
+            <div>
+              <h5 className="lg:text-2xl md:text-xl sm:text-xl font-semibold text-myblue mb-1">
+                On-Site Security Personnel
+              </h5>
+              <p className="lg:text-sm md:text-sm sm:text-xs text-myblack font-medium lg:w-[70%] md:w-[70%] sm:w-[70%]">
+                Our facility is monitored by security staffed round the clock.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
