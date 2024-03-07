@@ -8,6 +8,7 @@ import DesktopStorageContainers from "./compontents/Storage-containers";
 import StorageOptionsSwiper from "./compontents/Storage-options-swiper";
 import Security from "./compontents/Security";
 import CollectionService from "./compontents/Collection-service";
+import Boxes from "./compontents/Boxes";
 
 export default function Home() {
   useEffect(() => {
@@ -35,6 +36,9 @@ export default function Home() {
       </div>
       <div>
         <CollectionService />
+      </div>
+      <div>
+        <Boxes />
       </div>
     </div>
   );
