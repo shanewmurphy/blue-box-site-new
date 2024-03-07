@@ -25,6 +25,12 @@ module.exports = {
       xl: "1280px",
     },
     fontSize: {
+      "8xl": [
+        "4.5rem",
+        {
+          lineHeight: "5.2rem",
+        },
+      ],
       "7xl": [
         "3.2rem",
         {
