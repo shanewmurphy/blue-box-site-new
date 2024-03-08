@@ -9,12 +9,12 @@ export default function Boxes() {
         </div>
       </div>
       <div className="lg:w-6/12 laptop:w-11/12 md:w-9/12 sm:w-11/12 mb-[30%] mx-auto lg:mt-8 md:mt-2 sm:mt-3">
-        <p className="text-center font-medium text-myblack lg:text-xl md:text-lg sm:text-sm">
+        <p className="lg:text-center md:text-center sm:text-left font-medium text-myblack lg:text-xl md:text-lg sm:text-base">
           Our boxes are available in three different sizes to accommodate all
           your packing needs. Our boxes are designed to provide maximum
           protection for your belongings.
         </p>
-        <p className="text-center text-myblue font-semibold lg:text-2xl mt-4">
+        <p className="lg:text-center md:text-center sm:text-left text-myblue font-semibold lg:text-2xl mt-4">
           Boxes only available for purchase at facility only
         </p>
       </div>

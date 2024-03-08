@@ -11,7 +11,13 @@ export default function CollectionService() {
             Blue Box Storage&apos;s pickup service, we&apos;ll collect your
             items right from your doorstep, saving you time and effort.
           </p>
-          <h6 className="lg:text-xl md:text-xl sm:text-lg text-myblack font-bold mt-6">
+          <div className="bg-myblue rounded-xl p-8 lg:mt-0 md:mt-0 sm:mt-4 lg:hidden md:hidden sm:block">
+            <img
+              src="/Collection-imgs/BlueBox_Van-min.png"
+              alt="Bluxbox Collection Service"
+            />
+          </div>
+          <h6 className="lg:text-xl md:text-xl sm:text-lg text-myblack font-bold lg:mt-6 md:mt-6 sm:mt-4">
             Simply Select this Option in Quotation Form
           </h6>
           <p className="text-myblack font-medium lg:text-sm">
@@ -24,7 +30,7 @@ export default function CollectionService() {
             </button>
           </div>
         </div>
-        <div className="bg-myblue h-[100%] rounded-xl p-8">
+        <div className="bg-myblue h-[100%] rounded-xl p-8 lg:block md:block sm:hidden">
           <img
             src="/Collection-imgs/BlueBox_Van-min.png"
             alt="Bluxbox Collection Service"
