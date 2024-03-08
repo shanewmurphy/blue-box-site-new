@@ -9,7 +9,7 @@ import StorageOptionsSwiper from "./compontents/Storage-options-swiper";
 import Security from "./compontents/Security";
 import CollectionService from "./compontents/Collection-service";
 import Boxes from "./compontents/Boxes";
-
+import FAQStorage from "./compontents/FAQ-storage";
 export default function Home() {
   useEffect(() => {
     (async () => {
@@ -39,6 +39,9 @@ export default function Home() {
       </div>
       <div>
         <Boxes />
+      </div>
+      <div>
+        <FAQStorage />
       </div>
     </div>
   );

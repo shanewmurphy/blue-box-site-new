@@ -3,8 +3,8 @@ export default function CollectionService() {
     <div className="lg:w-10/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto lg:my-[25%] laptop:my-[25%] md:my-[30%] sm:my-[60%] antialiased">
       <div className="grid lg:grid-cols-2 gap-12">
         <div className="lg:w-[90%] laptop:w-[95%] md:w-[100%] sm:w-[100%]">
-          <h3 className="lg:text-4xl md:text-5xl sm:text-3xl text-myblue font-bold">
-            Convenient Pick-Up Service Let Us Come to You!
+          <h3 className="lg:text-4xl md:text-5xl sm:text-2xl text-myblue font-bold">
+            Trust Our Collection Service To Do the Heavy Lifting
           </h3>
           <p className="lg:text-base font-medium text-myblack mt-2">
             Don&apos;t have time to drop off your belongings? No problem! With

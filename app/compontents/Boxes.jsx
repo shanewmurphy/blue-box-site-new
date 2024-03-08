@@ -4,7 +4,7 @@ export default function Boxes() {
       <div className="flex justify-center items-center lg:w-10/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto antialiased">
         <div className="w-full lg:h-[70vh] md:h-[40vh] sm:h-[360px] lg:bg-[url('/Boxes-imgs/Boxes-lg-min.jpg')] md:bg-[url('/Boxes-imgs/Boxes-lg-min.jpg')] sm:bg-[url('/Boxes-imgs/Boxes-sm.jpg')] bg-no-repeat lg:bg-cover md:bg-contain sm:bg-cover flex justify-center items-center">
           <h5 className="lg:text-8xl md:text-6xl sm:text-3xl w-[80%] text-mywhite font-bold text-center">
-            Perfect Boxes for Your Packing Needs
+            Perfect Boxes For Your Packing Needs
           </h5>
         </div>
       </div>
