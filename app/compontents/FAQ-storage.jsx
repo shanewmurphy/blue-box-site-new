@@ -18,7 +18,7 @@ const StorageFaqs = [
     ID: "03",
     Question: "Are there any additional fees or charges to consider?",
     Answer:
-      "Our pricing is transparent, with no hidden fees. Your quoted price covers the rental, but additional services (such as pick-up) might have associated charges. We ensure you're aware of all costs upfront.",
+      "Our pricing is transparent, with no hidden fees. Your quoted price covers the rental, but additional services (such as pick-up) will have associated charges. We ensure you're aware of all costs upfront.",
   },
   {
     ID: "04",

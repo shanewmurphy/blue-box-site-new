@@ -14,7 +14,7 @@ export default function Boxes() {
           your packing needs. Our boxes are designed to provide maximum
           protection for your belongings.
         </p>
-        <p className="lg:text-center md:text-center sm:text-left text-myblue font-semibold lg:text-2xl mt-4">
+        <p className="lg:text-center md:text-center sm:text-left text-myblue font-semibold lg:text-xl md:text-xl sm:text-base mt-4">
           Boxes only available for purchase at facility only
         </p>
       </div>
