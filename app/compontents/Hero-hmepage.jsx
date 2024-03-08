@@ -1,7 +1,7 @@
 export default function HeroHomepage() {
   return (
     <div>
-      <div className="bg-myblue w-full antialiased">
+      <div className="bg-myblue w-full lg:h-[80vh] md:h-[75vh] sm:h-svh antialiased">
         <div className="lg:w-5/6 laptop:w-5/6 sm:w-11/12 mx-auto lg:py-[12%] md:py-[15%] sm:py-[32%]">
           <div className="flex lg:flex-row md:flex-col sm:flex-col gap-6">
             <div className="basis-2/5">

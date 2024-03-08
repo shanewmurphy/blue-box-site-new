@@ -66,7 +66,7 @@ export default function FAQStorage() {
             {({ open }) => (
               <>
                 <Disclosure.Button className="flex justify-between items-center w-full py-4 px-6 mb-5 bg-FAQBkgColor lg:rounded-3xl md:rounded-md sm:rounded-lg text-mywhite focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                  <h4 className="lg:w-9/10 md:w-9/10 sm:w-10/12 lg:text-base md:text-base sm:text-xs font-medium text-left text-myblue">
+                  <h4 className="lg:w-9/10 md:w-9/10 sm:w-10/12 lg:text-base md:text-base sm:text-xs font-semibold text-left text-myblue">
                     {faq.Question}
                   </h4>
                   <div>
@@ -78,7 +78,7 @@ export default function FAQStorage() {
                   </div>
                 </Disclosure.Button>
                 <Disclosure.Panel>
-                  <div className="lg:w-11/12 mx-auto">
+                  <div className="lg:w-11/12 md:w-10/12 sm:w-11/12 mx-auto">
                     <p className="text-sm font-medium mb-6">{faq.Answer}</p>
                   </div>
                 </Disclosure.Panel>
