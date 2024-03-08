@@ -59,13 +59,13 @@ const StorageFaqs = [
 ];
 export default function FAQStorage() {
   return (
-    <div className="lg:w-10/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto lg:my-[25%] laptop:my-[25%] md:my-[30%] sm:my-[60%] antialiased">
+    <div className="lg:w-11/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto mt-12 antialiased">
       <div className="lg:w-8/12 mx-auto">
         {StorageFaqs.map((faq) => (
           <Disclosure key={faq.ID}>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex justify-between items-center w-full py-4 px-6 mb-5 bg-FAQBkgColor lg:rounded-3xl md:rounded-md sm:rounded-lg text-mywhite focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                <Disclosure.Button className="flex justify-between items-center w-full lg:py-4 lg:px-6 md:py-4 md:px-6 sm:py-5 sm:px-6 mb-5 bg-FAQBkgColor lg:rounded-3xl md:rounded-xl sm:rounded-xl text-mywhite focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                   <h4 className="lg:w-9/10 md:w-9/10 sm:w-10/12 lg:text-base md:text-base sm:text-xs font-semibold text-left text-myblue">
                     {faq.Question}
                   </h4>

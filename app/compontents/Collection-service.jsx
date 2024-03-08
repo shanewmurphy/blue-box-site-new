@@ -6,9 +6,11 @@ export default function CollectionService() {
           <h3 className="lg:text-4xl md:text-5xl sm:text-2xl text-myblue font-bold">
             Trust Our Collection Service To Do the Heavy Lifting
           </h3>
-          <p className="lg:text-base font-medium text-myblack mt-2">
-            Don&apos;t have time to drop off your belongings? No problem! With
-            Blue Box Storage&apos;s pickup service, we&apos;ll collect your
+          <h4 className="font-bold text-myblack lg:text-xl md:text-xl sm:text-lg mt-2">
+            Don&apos;t have time to drop off your belongings? No problem!{" "}
+          </h4>
+          <p className="text-base font-medium text-myblack mt-3">
+            With Blue Box Storage&apos;s pickup service, we&apos;ll collect your
             items right from your doorstep, saving you time and effort.
           </p>
           <div className="bg-myblue rounded-xl p-8 lg:mt-0 md:mt-0 sm:mt-4 lg:hidden md:hidden sm:block">
