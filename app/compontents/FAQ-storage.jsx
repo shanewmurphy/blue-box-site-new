@@ -65,15 +65,15 @@ export default function FAQStorage() {
           <Disclosure key={faq.ID}>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex justify-between items-center w-full py-4 px-6 mb-5 bg-myblue lg:rounded-3xl md:rounded-md sm:rounded-lg text-mywhite focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                  <h4 className="lg:w-9/10 md:w-9/10 sm:w-10/12 lg:text-base md:text-base sm:text-xs font-medium text-left text-mywhite">
+                <Disclosure.Button className="flex justify-between items-center w-full py-4 px-6 mb-5 bg-FAQBkgColor lg:rounded-3xl md:rounded-md sm:rounded-lg text-mywhite focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <h4 className="lg:w-9/10 md:w-9/10 sm:w-10/12 lg:text-base md:text-base sm:text-xs font-medium text-left text-myblue">
                     {faq.Question}
                   </h4>
                   <div>
                     <PlusIcon
                       className={`${
                         open ? "rotate-45 transform" : ""
-                      } lg:h-8 lg:w-8 sm:w-6 sm:h-6 text-gray`}
+                      } lg:h-8 lg:w-8 sm:w-6 sm:h-6 text-myblue`}
                     />
                   </div>
                 </Disclosure.Button>
