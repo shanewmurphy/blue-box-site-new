@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Tab } from "@headlessui/react";
 import FAQStorage from "./FAQ-storage";
-
+import FAQCollection from "./FAQ-Collection";
 export default function AllFaqs() {
   const [selectedIndex, setSelectedIndex] = useState(0);
   return (
     <div>
       <div>
-        <div className="mb-40">
+        <div className="lg:my-[25%] laptop:my-[25%] md:my-[30%] sm:my-[60%]">
           <Tab.Group selectedIndex={selectedIndex} onChange={setSelectedIndex}>
             <div className="lg:w-[400px] md:w-[410px] sm:w-[340px] mx-auto bg-[#f4f4f6] px-4 py-3 rounded-xl">
               <Tab.List>
@@ -39,7 +39,9 @@ export default function AllFaqs() {
                   <FAQStorage />
                 </div>
               </Tab.Panel>
-              <Tab.Panel>BBB</Tab.Panel>
+              <Tab.Panel>
+                <FAQCollection />
+              </Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
         </div>

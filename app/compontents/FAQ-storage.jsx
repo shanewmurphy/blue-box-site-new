@@ -12,7 +12,7 @@ const StorageFaqs = [
     Question:
       "How do I determine the right container size for my storage needs?",
     Answer:
-      "Determining the right container size is based on the volume of items you need to store. Our team can guide you through this process, considering your belongings and their size. Feel free to contact us for personalized assistance.",
+      "Determining the right container size is based on the volume of items you need to store. Our team can guide you through this process, considering your belongings and their size. Feel free to contact us for personalised assistance.",
   },
   {
     ID: "03",
@@ -59,7 +59,7 @@ const StorageFaqs = [
 ];
 export default function FAQStorage() {
   return (
-    <div className="lg:w-11/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto mt-12 antialiased">
+    <div className="lg:w-11/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto mt-10 antialiased">
       <div className="lg:w-8/12 mx-auto">
         {StorageFaqs.map((faq) => (
           <Disclosure key={faq.ID}>
