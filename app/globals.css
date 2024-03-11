@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.swiper-slide {
-  width: 80% !important;
-}
 .icon:hover {
   fill: #ff0000; /* Change the color to red on hover */
 }
@@ -72,4 +69,9 @@
 .textify .line-box,
 .textify .line {
   overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+  .swiper-slide {
+    width: 80% !important;
+  }
 }

@@ -11,6 +11,8 @@ import CollectionService from "./compontents/Collection-service";
 import Boxes from "./compontents/Boxes";
 import FAQStorage from "./compontents/FAQ-storage";
 import AllFaqs from "./compontents/AllFAQ";
+import Testimonials from "./compontents/Testimonials";
+
 export default function Home() {
   useEffect(() => {
     (async () => {
@@ -43,6 +45,9 @@ export default function Home() {
       </div>
       <div>
         <AllFaqs />
+      </div>
+      <div>
+        <Testimonials />
       </div>
     </div>
   );

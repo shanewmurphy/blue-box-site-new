@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
-import { ArrowLeftCircleIcon } from "@heroicons/react/24/solid";
+
 const containerData = [
   {
     id: "01",

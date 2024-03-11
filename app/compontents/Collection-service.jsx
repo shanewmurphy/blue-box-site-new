@@ -3,7 +3,7 @@ export default function CollectionService() {
     <div className="lg:w-10/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto lg:my-[25%] laptop:my-[25%] md:my-[30%] sm:my-[60%] antialiased">
       <div className="grid lg:grid-cols-2 gap-12">
         <div className="lg:w-[90%] laptop:w-[95%] md:w-[100%] sm:w-[100%]">
-          <h3 className="lg:text-4xl md:text-5xl sm:text-2xl text-myblue font-bold">
+          <h3 className="xl:text-4xl lg:text-3xl laptop:text-3xl md:text-5xl sm:text-2xl text-myblue font-bold">
             Trust Our Collection Service To Do the Heavy Lifting
           </h3>
           <h4 className="font-bold text-myblack lg:text-xl md:text-xl sm:text-lg mt-2">
@@ -27,7 +27,7 @@ export default function CollectionService() {
             container being rented.
           </p>
           <div className="mt-6">
-            <button className="font-semibold rounded-xl inline-flex items-center text-myblue lg:text-base md:text-base sm:text-base cursor-pointer">
+            <button className="font-semibold rounded-xl inline-flex items-center text-myblue border border-myblue px-8 py-2 lg:text-base md:text-base sm:text-base cursor-pointer">
               Learn More
               <span className="pl-1">
                 <ArrowRight />

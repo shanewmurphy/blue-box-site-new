@@ -18,6 +18,9 @@ export default function HeroHomepage() {
               </div>
             </div>
             <div className="basis-3/5 xl:order-last lg:order-last md:order-first sm:order-first">
+              <h2 className="lg:hidden md:block sm:block text-center font-bold text-mywhite text-6xl mb-6">
+                Storage Rental
+              </h2>
               <picture>
                 <img
                   src="/Hero-imgs/Hero-img-hmepge-min.png"

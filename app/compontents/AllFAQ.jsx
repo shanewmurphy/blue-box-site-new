@@ -8,6 +8,11 @@ export default function AllFaqs() {
     <div>
       <div>
         <div className="lg:my-[25%] laptop:my-[25%] md:my-[30%] sm:my-[60%]">
+          <div className="lg:w-6/12 md:w-6/12 sm:w-10/12 mx-auto">
+            <h3 className="text-center font-bold text-myblue lg:text-4xl md:text-3xl sm:text-2xl mb-4">
+              Common Questions & Answers
+            </h3>
+          </div>
           <Tab.Group selectedIndex={selectedIndex} onChange={setSelectedIndex}>
             <div className="lg:w-[400px] md:w-[410px] sm:w-[340px] mx-auto bg-[#f4f4f6] px-4 py-3 rounded-xl">
               <Tab.List>
