@@ -54,7 +54,7 @@ export default function CustomersReview() {
   return (
     <div>
       <div>
-        <div className="w-11/12 mx-auto laptop:my-[30%] md:my-[30%] sm:my-[60%]">
+        <div className="w-10/12 mx-auto laptop:my-[30%] md:my-[30%] sm:my-[60%]">
           <div className="laotop:w-10/12">
             <h3 className="lg:text-6xl laptop:text-6xl md:text-5xl sm:text-2xl text-myblue font-bold mb-1">
               What Our Customers Say
@@ -100,12 +100,12 @@ export default function CustomersReview() {
                 <div className="my-swiper">
                   {Testimonials.map((review) => (
                     <SwiperSlide key={review.id}>
-                      <div className="bg-myblue py-8 px-4 rounded-lg lg:h-60 md:h-72 sm:h-72">
-                        <div className="lg:py-8 lg:px-8 md:py-4 md:px-4 sm:py-6 sm:px-6">
+                      <div className="bg-myblue py-8 px-4 rounded-lg h-72">
+                        <div className="lg:py-8 lg:px-8 md:py-4 md:px-4 sm:py-2 sm:px-4">
                           <p className="text-mywhite lg:text-base md:text-base sm:text-sm">
                             {review.review}
                           </p>
-                          <p className="text-mywhite text-lg mt-2">
+                          <p className="text-mywhite text-base mt-3">
                             {review.name}
                             <span className="pl-2 text-sm">
                               {review.location}

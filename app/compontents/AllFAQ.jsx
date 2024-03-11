@@ -49,6 +49,17 @@ export default function AllFaqs() {
               </Tab.Panel>
             </Tab.Panels>
           </Tab.Group>
+          <div className="text-center">
+            <h5 className="lg:text-2xl md:text-2xl sm:text-xl text-myblue font-semibold mt-8">
+              Still have a question?
+            </h5>
+            <p className="lg:text-base md:text-base sm:text-sm font-medium text-myblack mt-1">
+              Contact us for further assistance.
+            </p>
+            <p className="text-base font-bold text-myblack mt-2">
+              0214 457 457
+            </p>
+          </div>
         </div>
       </div>
     </div>

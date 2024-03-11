@@ -27,7 +27,7 @@ export default function CollectionService() {
             container being rented.
           </p>
           <div className="mt-6">
-            <button className="font-semibold rounded-xl inline-flex items-center text-myblue border border-myblue px-8 py-2 lg:text-base md:text-base sm:text-base cursor-pointer">
+            <button className="font-semibold rounded-xl inline-flex items-center text-myblue border border-myblue hover:bg-myblue hover:text-mywhite px-8 py-3 lg:text-base md:text-base sm:text-base cursor-pointer">
               Learn More
               <span className="pl-1">
                 <ArrowRight />
@@ -54,6 +54,7 @@ function ArrowRight() {
       viewBox="0 0 24 17"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="arrow"
     >
       <path
         d="M23.6646 7.42019L17.0437 0.385389C16.5951 -0.0177694 15.7348 -0.184197 15.2333 0.28194C14.7394 0.741043 14.7541 1.63146 15.2461 2.09238L19.9015 7.03226H1.24142C0.555848 7.03226 0 7.58805 0 8.27366C0 8.95927 0.555848 9.51509 1.24142 9.51509H19.9015L15.2461 14.455C14.8225 14.8793 14.7442 15.801 15.2333 16.2654C15.7223 16.7297 16.6135 16.5814 17.0437 16.1619L23.6646 9.12716C24.1339 8.54669 24.089 7.99346 23.6646 7.42019Z"

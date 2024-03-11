@@ -12,6 +12,7 @@ import Boxes from "./compontents/Boxes";
 import FAQStorage from "./compontents/FAQ-storage";
 import AllFaqs from "./compontents/AllFAQ";
 import Testimonials from "./compontents/Testimonials";
+import Footer from "./compontents/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -48,6 +49,9 @@ export default function Home() {
       </div>
       <div>
         <Testimonials />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
