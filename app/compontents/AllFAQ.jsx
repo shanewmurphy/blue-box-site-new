@@ -7,7 +7,7 @@ export default function AllFaqs() {
   return (
     <div>
       <div>
-        <div className="lg:my-[25%] laptop:my-[25%] md:my-[30%] sm:my-[60%]">
+        <div className="lg:my-[25%] laptop:my-[25%] md:my-[30%] sm:my-[60%] antialiased">
           <div className="lg:w-6/12 md:w-6/12 sm:w-10/12 mx-auto">
             <h3 className="text-center font-bold text-myblue lg:text-4xl md:text-3xl sm:text-2xl mb-4">
               Common Questions & Answers
@@ -53,12 +53,10 @@ export default function AllFaqs() {
             <h5 className="lg:text-2xl md:text-2xl sm:text-xl text-myblue font-semibold mt-8">
               Still have a question?
             </h5>
-            <p className="lg:text-base md:text-base sm:text-sm font-medium text-myblack mt-1">
+            <p className="lg:text-lg md:text-base sm:text-sm font-medium text-myblack mt-1">
               Contact us for further assistance.
             </p>
-            <p className="text-base font-bold text-myblack mt-2">
-              0214 457 457
-            </p>
+            <p className="text-xl font-bold text-myblack mt-1">0214 457 457</p>
           </div>
         </div>
       </div>

@@ -8,8 +8,8 @@ import DesktopStorageContainers from "./compontents/Storage-containers";
 import StorageOptionsSwiper from "./compontents/Storage-options-swiper";
 import Security from "./compontents/Security";
 import CollectionService from "./compontents/Collection-service";
+import CollectionServicePromo from "./compontents/Collection-service-promo";
 import Boxes from "./compontents/Boxes";
-import FAQStorage from "./compontents/FAQ-storage";
 import AllFaqs from "./compontents/AllFAQ";
 import Testimonials from "./compontents/Testimonials";
 import Footer from "./compontents/Footer";
@@ -40,6 +40,9 @@ export default function Home() {
       </div>
       <div>
         <CollectionService />
+      </div>
+      <div>
+        <CollectionServicePromo />
       </div>
       <div>
         <Boxes />
