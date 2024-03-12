@@ -91,7 +91,7 @@ export default function StorageOptionsSwiper() {
                         </picture>
                       </div>
                       <div className="md:w-8/12 sm:w-11/12 mx-auto">
-                        <p className="text-center text-myblack md:text-lg sm:text-sm font-semibold mt-3">
+                        <p className="text-center text-myblack text-sm font-medium mt-3">
                           {destail.description}
                         </p>
                       </div>

@@ -5,9 +5,7 @@
 .icon:hover {
   fill: #ff0000; /* Change the color to red on hover */
 }
-.arrow:hover path {
-  fill: white;
-}
+
 .animate-text {
   opacity: 0;
   transform: translateY(50px);

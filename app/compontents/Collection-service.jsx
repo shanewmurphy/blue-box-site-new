@@ -7,7 +7,7 @@ export default function CollectionService() {
             Trust Our Collection Service To Do the Heavy Lifting
           </h3>
           <h4 className="font-bold text-myblack lg:text-xl md:text-xl sm:text-lg mt-2">
-            Don&apos;t have time to drop off your belongings? No problem!
+            Don&apos;t have time to drop off your belongings? No problem!{" "}
           </h4>
           <p className="text-base font-medium text-myblack mt-3">
             With Blue Box Storage&apos;s pickup service, we&apos;ll collect your
