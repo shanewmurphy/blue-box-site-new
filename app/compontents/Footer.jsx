@@ -1,36 +1,55 @@
 export default function Footer() {
   return (
-    <div className="w-full bg-myblue lg:py-16 lg:px-16 md:py-10 md:px-10 sm:py-8 sm:px-8">
-      <div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-3 lg:justify-items-center gap-4">
+    <div className="w-full bg-myblue lg:py-16 lg:px-16 md:py-10 md:px-10 sm:py-8 sm:px-8 antialiased">
+      <div className="flex lg:flex-row md:flex-row sm:flex-col gap-12">
+        <div className="basis-2/5">
           <div>
-            <div>
-              <Logo />
+            <Logo />
+          </div>
+          <h4 className="font-bold text-mywhite lg:text-2xl md:text-2xl sm:text-xl mt-2">
+            Your Belongs, Our Priority
+          </h4>
+          <h5 className="font-semibold text-mywhite lg:text-xl md:text-xl sm:text-lg lg:w-[80%]">
+            Secure, Convenient, and Affordable Storage Solutions
+          </h5>
+        </div>
+        <div className="basis-3/5 inline-flex gap-4">
+          <div className="basis-2/4">
+            <div className="text-mywhite text-sm lg:mt-0 md:mt-0 sm:mt-6">
+              <h6 className="font-semibold lg:text-lg md:text-lg sm:text-sm">
+                Helpful Links
+              </h6>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">10ft Container</p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">20ft Container</p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">40ft Container</p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">Collection Service</p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">Customer Service</p>
             </div>
-            <h4 className="font-bold text-mywhite lg:text-2xl md:text-2xl sm:text-xl mt-2">
-              Your Belongs, Our Priority
-            </h4>
-            <h5 className="font-medium text-mywhite lg:text-xl md:text-xl sm:text-lg">
-              Secure, Convenient, and Affordable Storage Solutions
-            </h5>
           </div>
-          <div className="text-mywhite text-sm lg:mt-0 md:mt-0 sm:mt-6">
-            <h6 className="font-semibold lg:text-lg md:text-lg sm:text-base">
-              Helpful Links
-            </h6>
-            <p className="lg:mt-1 md:mt-1 sm:mt-2">10ft Container</p>
-            <p className="lg:mt-1 md:mt-1 sm:mt-2">20ft Container</p>
-            <p className="lg:mt-1 md:mt-1 sm:mt-2">40ft Container</p>
-            <p className="lg:mt-1 md:mt-1 sm:mt-2">Collection Service</p>
-            <p className="lg:mt-1 md:mt-1 sm:mt-2">Customer Service</p>
+          <div className="basis-2/4">
+            <div className="text-mywhite text-sm lg:mt-0 md:mt-0 sm:mt-6">
+              <h6 className="font-semibold lg:text-lg md:text-lg sm:text-sm">
+                Terms & Conditions
+              </h6>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">Privay Policy</p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">Terms of Service</p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">Rental Terms</p>
+            </div>
           </div>
-          <div className="text-mywhite text-sm lg:mt-0 md:mt-0 sm:mt-6">
-            <h6 className="font-semibold lg:text-lg md:text-lg sm:text-base">
-              Terms & Conditions
-            </h6>
-            <p className="lg:mt-1 md:mt-1 sm:mt-2">Privay Policy</p>
-            <p className="lg:mt-1 md:mt-1 sm:mt-2">Terms of Service</p>
-            <p className="lg:mt-1 md:mt-1 sm:mt-2">Rental Terms</p>
+          <div className="basis-2/4 lg:block md:hidden sm:hidden">
+            <div className="text-mywhite text-sm lg:mt-0 md:mt-0 sm:mt-6">
+              <h6 className="font-semibold lg:text-lg md:text-lg sm:text-sm">
+                Follow Us
+              </h6>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">
+                <span className="inline-block align-middle pr-2">
+                  <Facebook />
+                </span>
+                Facebook
+              </p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">Terms of Service</p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">Rental Terms</p>
+            </div>
           </div>
         </div>
       </div>
@@ -58,6 +77,41 @@ function Logo() {
           <rect width="74" height="72" fill="white" />
         </clipPath>
       </defs>
+    </svg>
+  );
+}
+
+function Facebook() {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20 10.0611C20 4.50451 15.5229 0 10 0C4.47715 0 0 4.50451 0 10.0611C0 15.0828 3.65684 19.2452 8.4375 20V12.9694H5.89844V10.0611H8.4375V7.84452C8.4375 5.32296 9.9305 3.93012 12.2146 3.93012C13.3088 3.93012 14.4531 4.12663 14.4531 4.12663V6.60261H13.1922C11.95 6.60261 11.5625 7.37822 11.5625 8.1739V10.0611H14.3359L13.8926 12.9694H11.5625V20C16.3432 19.2452 20 15.083 20 10.0611Z"
+        fill="white"
+      />
+    </svg>
+  );
+}
+function Instagram() {
+  return (
+    <svg
+      width="19"
+      height="19"
+      viewBox="0 0 19 19"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M13.7222 0H5.27778C2.36295 0 0 2.36295 0 5.27778V13.7222C0 16.637 2.36295 19 5.27778 19H13.7222C16.637 19 19 16.637 19 13.7222V5.27778C19 2.36295 16.637 0 13.7222 0ZM17.1528 13.7222C17.147 15.6144 15.6144 17.147 13.7222 17.1528H5.27778C3.38554 17.147 1.85302 15.6144 1.84722 13.7222V5.27778C1.85302 3.38554 3.38554 1.85302 5.27778 1.84722H13.7222C15.6144 1.85302 17.147 3.38554 17.1528 5.27778V13.7222ZM14.5139 5.54167C15.0969 5.54167 15.5694 5.06907 15.5694 4.48611C15.5694 3.90315 15.0969 3.43056 14.5139 3.43056C13.9309 3.43056 13.4583 3.90315 13.4583 4.48611C13.4583 5.06907 13.9309 5.54167 14.5139 5.54167ZM9.5 4.75C6.87665 4.75 4.75 6.87665 4.75 9.5C4.75 12.1234 6.87665 14.25 9.5 14.25C12.1234 14.25 14.25 12.1234 14.25 9.5C14.2529 8.23935 13.7533 7.02955 12.8618 6.13814C11.9704 5.24673 10.7607 4.74719 9.5 4.75ZM6.59722 9.5C6.59722 11.1032 7.89682 12.4028 9.5 12.4028C11.1032 12.4028 12.4028 11.1032 12.4028 9.5C12.4028 7.89682 11.1032 6.59722 9.5 6.59722C7.89682 6.59722 6.59722 7.89682 6.59722 9.5Z"
+        fill="white"
+      />
     </svg>
   );
 }

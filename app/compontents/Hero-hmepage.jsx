@@ -8,8 +8,8 @@ export default function HeroHomepage() {
               <h1 className="text-mywhite font-bold xl:text-6xl lg:text-4xl laptop:text-6xl md:text-4xl sm:text-2xl lg:text-left laptop:text-left md:text-center sm:text-center">
                 Secure, Convenient, <br /> and Affordable Storage Solutions 
               </h1>
-              <div className="flex lg:justify-start laptop:justify-start  md:justify-center sm:justify-center lg:mt-8 md:mt-8 sm:mt-7">
-                <button className="lg:w-60 md:w-60 sm:w-60 py-4 bg-btnbgcolour text-btntextblack font-semibold rounded-2xl lg:text-lg md:text-lg sm:text-lg flex items-center justify-center">
+              <div className="flex lg:justify-start laptop:justify-start  md:justify-center sm:justify-center lg:mt-8 md:mt-8 sm:mt-12">
+                <button className="lg:w-60 md:w-60 sm:w-60 py-4 bg-mywhite text-btntextblack font-semibold rounded-2xl lg:text-lg md:text-lg sm:text-lg flex items-center justify-center">
                   Select Container
                   <span className="inline-flex items-center justify-center ml-2">
                     <IconArrowDown />

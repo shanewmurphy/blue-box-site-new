@@ -1,6 +1,6 @@
 export default function CollectionServicePromo() {
   return (
-    <div className="lg:w-10/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto lg:px-16 lg:py-16 laptop:px-3 laptop:py-2 md:px-12 md:py-12 sm:px-6 sm:py-8 lg:my-[25%] laptop:my-[25%] md:my-[30%] sm:my-[60%] antialiased bg-myblue lg:rounded-3xl md:rounded-xl sm:rounded-xl">
+    <div className="lg:w-10/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto lg:px-16 lg:py-16 laptop:px-3 laptop:py-2 md:px-12 md:py-12 sm:px-8 sm:py-8 lg:my-[25%] laptop:my-[25%] md:my-[30%] sm:my-[60%] antialiased bg-myblue lg:rounded-3xl md:rounded-xl sm:rounded-xl">
       <div className="grid lg:grid-cols-2 lg:gap-24 laptop:gap-12 md:gap-8 sm:gap-4">
         <div>
           <div className="antialiased">
@@ -22,7 +22,7 @@ export default function CollectionServicePromo() {
                 </span>
               </button>
             </div>
-            <div className="lg:mt-0 md:mt-0 sm:mt-4 lg:hidden md:hidden sm:block">
+            <div className="lg:mt-0 md:mt-0 sm:mt-24 lg:hidden md:hidden sm:block">
               <img
                 src="/Collection-imgs/BlueBox_Van-min.png"
                 alt="Bluxbox Collection Service"
