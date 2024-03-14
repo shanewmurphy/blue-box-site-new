@@ -17,7 +17,7 @@ module.exports = {
       cardmobilebgcolor: "#F5F5F5",
       cardSecuritybkg: "#f9f9fc",
       FAQBkgColor: "#f7f7f7",
-      lightgray: "#f7f7f8",
+      lightgray: "#f9f9f9",
     },
     screens: {
       sm: "358px",
@@ -82,9 +82,9 @@ module.exports = {
         },
       ],
       base: [
-        "1rem;",
+        "0.9rem;",
         {
-          lineHeight: "1.5rem;",
+          lineHeight: "1.4rem;",
         },
       ],
       sm: [
