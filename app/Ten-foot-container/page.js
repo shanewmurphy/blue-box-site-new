@@ -1,3 +1,5 @@
+import ColllectionServicePage from "../compontents/Collection-service-page";
+
 export default function TenFootContainerPage() {
   return (
     <div>
@@ -77,6 +79,9 @@ export default function TenFootContainerPage() {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <ColllectionServicePage />
       </div>
     </div>
   );
