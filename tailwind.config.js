@@ -82,9 +82,9 @@ module.exports = {
         },
       ],
       base: [
-        "0.9rem;",
+        "1rem;",
         {
-          lineHeight: "1.4rem;",
+          lineHeight: "1.5rem;",
         },
       ],
       sm: [
