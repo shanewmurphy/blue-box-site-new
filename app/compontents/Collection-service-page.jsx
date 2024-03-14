@@ -9,8 +9,8 @@ export default function ColllectionServicePage() {
             </h2>
             <p className="text-medium text-myblack text-sm mt-3">
               Don&apos;t have time to drop off your belongings? No problem! With
-              Blue Box Storage&apos;s pickup service, we'll collect your items
-              right from your doorstep, saving you time and effort
+              Blue Box Storage&apos;s pickup service, we&apos;ll collect your
+              items right from your doorstep, saving you time and effort
             </p>
             <h4 className="font-bold text-mblack xl:text-xl lg:text-lg mt-6">
               Select this Option in Quotation Form
