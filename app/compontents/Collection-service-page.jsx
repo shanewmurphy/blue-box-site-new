@@ -4,8 +4,8 @@ export default function ColllectionServicePage() {
       <div className="lg:w-10/12 laptop:w-11/12 md:w-11/12 sm:w-11/12 mx-auto ">
         <div className="grid lg:grid-cols-2 sm:gap-8">
           <div className="lg:w-[85%]">
-            <h2 className="font-bold text-myblue xl:text-4xl lg:text-2xl md:text-6xl sm:text-2xl">
-              Trust Our Collection Service <br /> To Do the Heavy Lifting
+            <h2 className="font-bold text-myblue xl:text-6xl lg:text-4xl md:text-6xl sm:text-3xl">
+              Trust Our Collection Service
             </h2>
             <p className="font-medium text-myblack lg:text-base md:text-lg sm:text-base mt-3">
               Don&apos;t have time to drop off your belongings? No problem! With
