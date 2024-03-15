@@ -131,6 +131,9 @@ export default function QuoteForm() {
             </div>
             <div className="lg:mt-0 md:mt-0 sm:mt-8 antialiased">
               <div className="lg:w-10/12">
+                <span className="text-myblack font-semibold text-base lg:hidden md:hidden sm:block mb-2">
+                  Please Select Container Size*
+                </span>
                 <div className="grid lg:grid-cols-2 md:grid-cols-2  sm:grid-rows-1 lg:gap-4 md:gap-2 sm:gap-6">
                   <div>
                     <span className="text-myblack font-semibold text-base">
@@ -139,7 +142,7 @@ export default function QuoteForm() {
                     <div>
                       <input
                         type="date"
-                        className="lg:w-[140px] md:w-[155px] block border border-myblack font-medium text-myblack rounded-md"
+                        className="lg:w-[160px] md:w-[155px] sm:w-[190px] block border border-myblack font-medium text-myblack rounded-md"
                       ></input>
                     </div>
                   </div>
@@ -150,7 +153,7 @@ export default function QuoteForm() {
                     <div>
                       <input
                         type="date"
-                        className="lg:w-[140px] md:w-[155px] block border border-myblack font-medium text-myblack rounded-md"
+                        className="lg:w-[160px] md:w-[155px] sm:w-[190px] block border border-myblack font-medium text-myblack rounded-md"
                       ></input>
                     </div>
                   </div>
