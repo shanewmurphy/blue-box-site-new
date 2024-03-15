@@ -19,6 +19,7 @@ module.exports = {
       FAQBkgColor: "#f7f7f7",
       lightgray: "#f9f9f9",
       inputgray: "#EDEDED",
+      inputBlue: "#ebecf8",
       placeholderText: "#696969",
     },
     screens: {
