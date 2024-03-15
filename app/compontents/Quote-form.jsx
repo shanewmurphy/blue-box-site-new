@@ -7,9 +7,10 @@ export default function QuoteForm() {
   const handleButtonClick = (button) => {
     setSelectedButton(button === selectedButton ? null : button);
   };
+  const [showDiv, setShowDiv] = useState(false);
   return (
     <div>
-      <div className="lg:w-10/12 md:w-11/12 sm:w-11/12 mx-auto lg:py-[15%] md:py-[10%] sm:py-[15%]">
+      <div className="lg:w-8/12 md:w-11/12 sm:w-11/12 mx-auto lg:py-[15%] md:py-[10%] sm:py-[15%]">
         <div>
           <h2 className="text-center font-bold text-myblue xl:text-6xl lg:text-4xl md:text-5xl sm:text-2xl">
             Get a Quote within 24 Hours
@@ -18,8 +19,8 @@ export default function QuoteForm() {
             To provide you with accurate pricing please complete form
           </p>
         </div>
-        <div className="lg:w-10/12 md:w-full sm:w-11/12 mx-auto lg:mt-8 md:mt-6 sm:mt-2">
-          <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-16 md:gap-6 sm:gap-6">
+        <div className="lg:mt-8 md:mt-6 sm:mt-2">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-16 md:gap-3 sm:gap-2">
             <div>
               <div className="lg:mt-0 md:mt-0 sm:mt-8 antialiased">
                 <label className="block">
@@ -142,7 +143,7 @@ export default function QuoteForm() {
                     <div>
                       <input
                         type="date"
-                        className="lg:w-[160px] md:w-[155px] sm:w-[190px] block border border-myblack font-medium text-myblack rounded-md"
+                        className="block lg:w-[160px] md:w-[155px] sm:w-[190px] border border-myblack font-medium text-myblack rounded-md"
                       ></input>
                     </div>
                   </div>
@@ -153,14 +154,118 @@ export default function QuoteForm() {
                     <div>
                       <input
                         type="date"
-                        className="lg:w-[160px] md:w-[155px] sm:w-[190px] block border border-myblack font-medium text-myblack rounded-md"
+                        className="block lg:w-[160px] md:w-[155px] sm:w-[190px] border border-myblack font-medium text-myblack rounded-md"
                       ></input>
                     </div>
                   </div>
                 </div>
               </div>
+              <div className="mt-6">
+                <span className="text-myblack font-semibold text-base">
+                  Do you require our Pick-Up Services?
+                </span>
+                <div className="mt-2">
+                  <div>
+                    <div>
+                      <button
+                        className={`px-8 py-2 mr-3  ${
+                          !showDiv
+                            ? "bg-mywhite border border-myblack font-bold text-myblack rounded-md"
+                            : "bg-mywhite border border-myblack font-bold text-myblack rounded-md"
+                        }`}
+                        onClick={() => setShowDiv(false)}
+                      >
+                        No
+                      </button>
+                      <button
+                        className={`px-8 py-2 ${
+                          showDiv
+                            ? "bg-myblue text-mywhite border border-myblue font-bold rounded-md"
+                            : "bg-mywhite border border-myblack font-bold text-myblack rounded-md"
+                        }`}
+                        onClick={() => setShowDiv(true)}
+                      >
+                        Yes
+                      </button>
+                    </div>
 
-              <div>KKKK</div>
+                    {showDiv && (
+                      <div className="mt-6">
+                        <div>
+                          <label>
+                            <span className="text-myblack font-semibold text-base">
+                              Address*
+                            </span>
+                            <input
+                              type="text"
+                              className="
+                                mt-1
+                                block
+                                lg:w-96
+                                md:w-80
+                                sm:w-11/12
+                                h-12
+                                rounded-md
+                                bg-inputgray
+                                border-inputgray
+                                text:placeholderText
+                                focus:border-gray-500 focus:bg-white focus:ring-0"
+                              placeholder="Apt 3, Street Name, Town"
+                              required
+                            ></input>
+                          </label>
+                        </div>
+                        <div className="grid grid-cols-2">
+                          <div className="mt-4">
+                            <label>
+                              <span className="text-myblack font-semibold text-base">
+                                City*
+                              </span>
+                              <input
+                                type="text"
+                                className="mt-1
+                                block
+                                lg:w-36
+                                md:w-36
+                                sm:w-11/12
+                                h-12
+                                rounded-md
+                                bg-inputgray
+                                border-inputgray
+                                text:placeholderText
+                                focus:border-gray-500 focus:bg-white focus:ring-0"
+                                placeholder="City"
+                              ></input>
+                            </label>
+                          </div>
+                          <div className="mt-4">
+                            <label>
+                              <span className="text-myblack font-semibold text-base">
+                                Postal Code*
+                              </span>
+                              <input
+                                type="number"
+                                className="mt-1
+                                block
+                                lg:w-40
+                                md:w-36
+                                sm:w-11/12
+                                h-12
+                                rounded-md
+                                bg-inputgray
+                                border-inputgray
+                                text:placeholderText
+                                focus:border-gray-500 focus:bg-white focus:ring-0"
+                                placeholder="Postal Code"
+                              ></input>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
