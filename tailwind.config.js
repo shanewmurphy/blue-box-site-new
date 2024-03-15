@@ -18,6 +18,8 @@ module.exports = {
       cardSecuritybkg: "#f9f9fc",
       FAQBkgColor: "#f7f7f7",
       lightgray: "#f9f9f9",
+      inputgray: "#EDEDED",
+      placeholderText: "#696969",
     },
     screens: {
       sm: "359px",
@@ -101,5 +103,5 @@ module.exports = {
       ],
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };

@@ -1,4 +1,5 @@
 import ColllectionServicePage from "../compontents/Collection-service-page";
+import QuoteForm from "../compontents/Quote-form";
 
 export default function TenFootContainerPage() {
   return (
@@ -82,6 +83,9 @@ export default function TenFootContainerPage() {
       </div>
       <div>
         <ColllectionServicePage />
+      </div>
+      <div>
+        <QuoteForm />
       </div>
     </div>
   );
