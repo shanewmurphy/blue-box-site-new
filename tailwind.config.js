@@ -20,7 +20,7 @@ module.exports = {
       lightgray: "#f9f9f9",
     },
     screens: {
-      sm: "358px",
+      sm: "359px",
       md: "768px",
       laptop: "900px",
       lg: "1024px",
