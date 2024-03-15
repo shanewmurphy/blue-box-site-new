@@ -18,12 +18,12 @@ export default function QuoteForm() {
             To provide you with accurate pricing please complete form
           </p>
         </div>
-        <div className="lg:w-8/12 md:w-11/12 sm:w-11/12 mx-auto lg:mt-8 md:mt-6 sm:mt-2">
-          <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-32 md:gap-6 sm:gap-6">
+        <div className="lg:w-10/12 md:w-full sm:w-11/12 mx-auto lg:mt-8 md:mt-6 sm:mt-2">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-16 md:gap-6 sm:gap-6">
             <div>
               <div className="lg:mt-0 md:mt-0 sm:mt-8 antialiased">
                 <label className="block">
-                  <span className="text-myblack font-medium lg:text-lg md:text-base sm:text-base">
+                  <span className="text-myblack font-semibold text-base">
                     Full Name*
                   </span>
                   <input
@@ -47,7 +47,7 @@ export default function QuoteForm() {
               </div>
               <div className="lg:mt-12 md:mt-8 sm:mt-6 antialiased">
                 <label className="block">
-                  <span className="text-myblack font-medium lg:text-lg md:text-base sm:text-base">
+                  <span className="text-myblack font-semibold text-base">
                     Email*
                   </span>
                   <input
@@ -69,7 +69,7 @@ export default function QuoteForm() {
               </div>
               <div className="lg:mt-12 md:mt-8 sm:mt-6 antialiased">
                 <label className="block">
-                  <span className="text-myblack font-medium lg:text-lg md:text-base sm:text-base">
+                  <span className="text-myblack font-semibold text-base">
                     Comfirm Email*
                   </span>
                   <input
@@ -90,7 +90,7 @@ export default function QuoteForm() {
                 </label>
               </div>
               <div className="lg:mt-12 md:mt-8 sm:mt-6 antialiased">
-                <span className="text-myblack font-medium lg:text-lg md:text-base sm:text-base">
+                <span className="text-myblack font-semibold text-base">
                   Please Select Container Size*
                 </span>
                 <div className="mt-2">
@@ -130,9 +130,34 @@ export default function QuoteForm() {
               </div>
             </div>
             <div className="lg:mt-0 md:mt-0 sm:mt-8 antialiased">
-              <span className="text-myblack font-medium lg:text-lg md:text-base sm:text-base">
-                Select Dates for period of Storage*
-              </span>
+              <div className="lg:w-10/12">
+                <div className="grid lg:grid-cols-2 md:grid-cols-2  sm:grid-rows-1 lg:gap-4 md:gap-2 sm:gap-6">
+                  <div>
+                    <span className="text-myblack font-semibold text-base">
+                      Start Date*
+                    </span>
+                    <div>
+                      <input
+                        type="date"
+                        className="lg:w-[140px] md:w-[155px] block border border-myblack font-medium text-myblack rounded-md"
+                      ></input>
+                    </div>
+                  </div>
+                  <div>
+                    <span className="text-myblack font-semibold text-base">
+                      End Date*
+                    </span>
+                    <div>
+                      <input
+                        type="date"
+                        className="lg:w-[140px] md:w-[155px] block border border-myblack font-medium text-myblack rounded-md"
+                      ></input>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>KKKK</div>
             </div>
           </div>
         </div>
