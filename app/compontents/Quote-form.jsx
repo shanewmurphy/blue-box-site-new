@@ -23,7 +23,7 @@ export default function QuoteForm() {
           <div className="lg:mt-8 md:mt-6 sm:mt-2">
             <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-16 md:gap-3 sm:gap-2">
               <div>
-                <div className="lg:mt-0 md:mt-0 sm:mt-8 antialiased">
+                <div className="lg:mt-0 md:mt-0 sm:mt-4 antialiased">
                   <label className="block">
                     <span className="text-myblack font-semibold text-base">
                       Full Name*
@@ -113,50 +113,48 @@ export default function QuoteForm() {
                     ></input>
                   </label>
                 </div>
-                <div className="lg:mt-12 md:mt-8 sm:mt-6 antialiased"></div>
-              </div>
-              <div className="lg:mt-0 md:mt-0 sm:mt-8 antialiased">
-                <div className="lg:w-10/12">
+                <div className="mt-6">
                   <span className="text-myblack font-semibold text-base">
                     Please Select Container Size*
                   </span>
-                  <div className="mt-2 mb-6">
-                    <div className="space-x-3">
-                      <button
-                        className={`px-6 py-2 ${
-                          selectedButton === 1
-                            ? "bg-myblue text-mywhite border border-myblue rounded-md font-semibold"
-                            : "bg-mywhite border border-myblack rounded-md font-semibold"
-                        }`}
-                        onClick={() => handleButtonClick(1)}
-                      >
-                        10FT
-                      </button>
-                      <button
-                        className={`px-6 py-2 ${
-                          selectedButton === 2
-                            ? "bg-myblue text-mywhite border border-myblue rounded-md font-semibold"
-                            : "bg-mywhite border border-myblack rounded-md font-semibold"
-                        }`}
-                        onClick={() => handleButtonClick(2)}
-                      >
-                        20FT
-                      </button>
-                      <button
-                        className={`px-6 py-2 ${
-                          selectedButton === 3
-                            ? "bg-myblue text-mywhite border border-myblue rounded-md font-semibold"
-                            : "bg-mywhite border border-myblack rounded-md font-semibold"
-                        }`}
-                        onClick={() => handleButtonClick(3)}
-                      >
-                        40FT
-                      </button>
-                    </div>
+                </div>
+                <div className="mt-2">
+                  <div className="space-x-3">
+                    <button
+                      className={`px-6 py-2 ${
+                        selectedButton === 1
+                          ? "bg-myblue text-mywhite border border-myblue rounded-md font-semibold"
+                          : "bg-mywhite border border-myblack rounded-md font-semibold"
+                      }`}
+                      onClick={() => handleButtonClick(1)}
+                    >
+                      10FT
+                    </button>
+                    <button
+                      className={`px-6 py-2 ${
+                        selectedButton === 2
+                          ? "bg-myblue text-mywhite border border-myblue rounded-md font-semibold"
+                          : "bg-mywhite border border-myblack rounded-md font-semibold"
+                      }`}
+                      onClick={() => handleButtonClick(2)}
+                    >
+                      20FT
+                    </button>
+                    <button
+                      className={`px-6 py-2 ${
+                        selectedButton === 3
+                          ? "bg-myblue text-mywhite border border-myblue rounded-md font-semibold"
+                          : "bg-mywhite border border-myblack rounded-md font-semibold"
+                      }`}
+                      onClick={() => handleButtonClick(3)}
+                    >
+                      40FT
+                    </button>
                   </div>
-                  <span className="text-myblack font-semibold text-base lg:hidden md:hidden sm:block mb-2">
-                    Please Select Container Size*
-                  </span>
+                </div>
+              </div>
+              <div className="lg:mt-0 md:mt-0 sm:mt-2 antialiased">
+                <div className="lg:w-10/12">
                   <div className="grid lg:grid-cols-2 md:grid-cols-2  sm:grid-rows-1 lg:gap-4 md:gap-2 sm:gap-6">
                     <div>
                       <span className="text-myblack font-semibold text-base">
@@ -292,9 +290,9 @@ export default function QuoteForm() {
             </div>
           </div>
         </div>
-        <div className="lg:w-[30%] md:w-[40%] sm:w-[60%] mx-auto lg:mt-8 md:mt-6 sm:mt-16">
+        <div className="lg:w-[30%] md:w-[40%] sm:w-[60%] mx-auto lg:mt-8 md:mt-6 text-center sm:mt-16">
           <div>
-            <button className="text-center font-medium bg-myblue rounded-2xl text-mywhite lg:text-xl lg:py-3 lg:px-14 md:py-3 md:px-8 sm:py-3 sm:px-9">
+            <button className="text-center font-medium bg-myblue rounded-2xl text-mywhite lg:text-xl md:text-xl sm:text-base lg:py-3 lg:px-14 md:py-3 md:px-8 sm:py-3 sm:px-10">
               Submit Quote
             </button>
           </div>

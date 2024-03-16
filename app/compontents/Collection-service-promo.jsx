@@ -4,8 +4,8 @@ export default function CollectionServicePromo() {
       <div className="grid lg:grid-cols-2 lg:gap-24 laptop:gap-12 md:gap-8 sm:gap-4">
         <div>
           <div className="antialiased">
-            <h3 className="xl:text-3xl lg:text-2xl laptop:text-lg md:text-5xl sm:text-2xl text-mywhite font-bold">
-              Trust Our Collection Service To Do the Heavy Lifting
+            <h3 className="xl:text-5xl lg:text-3xl md:text-6xl sm:text-3xl text-mywhite font-bold">
+              Trust Our Collection Service
             </h3>
             <h4 className="font-semibold text-mywhite lg:text-xl md:text-xl sm:text-lg mt-2">
               Don&apos;t have time to drop off your belongings? No problem!
