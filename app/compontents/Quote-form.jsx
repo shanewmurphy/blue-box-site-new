@@ -20,7 +20,7 @@ export default function QuoteForm() {
               To provide you with accurate pricing please complete form
             </p>
           </div>
-          <div className="lg:mt-8 md:mt-6 sm:mt-2">
+          <div className="lg:mt-8 md:mt-6 sm:mt-2 px-5 py-2 lg:bg-bgwhite md:bg-bgwhite sm:bg-cardbggray rounded-lg">
             <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-16 md:gap-3 sm:gap-2">
               <div>
                 <div className="lg:mt-0 md:mt-0 sm:mt-4 antialiased">
@@ -37,6 +37,7 @@ export default function QuoteForm() {
                                 md:w-56
                                 sm:w-11/12
                                 h-12
+                                font-medium 
                                 rounded-md
                                 bg-inputgray
                                 border-inputgray
@@ -56,6 +57,7 @@ export default function QuoteForm() {
                       type="email"
                       className="mt-1
                                 block
+                                font-medium
                                 lg:w-80
                                 md:w-56
                                 sm:w-11/12
@@ -82,6 +84,7 @@ export default function QuoteForm() {
                                 md:w-56
                                 sm:w-11/12
                                 h-12
+                                font-medium
                                 rounded-md
                                 bg-inputgray
                                 border-inputgray
@@ -104,6 +107,7 @@ export default function QuoteForm() {
                                 md:w-56
                                 sm:w-11/12
                                 h-12
+                                font-medium
                                 rounded-md
                                 bg-inputgray
                                 border-inputgray
@@ -184,7 +188,7 @@ export default function QuoteForm() {
                   <span className="text-myblack font-semibold text-base">
                     Do you require our Pick-Up Services?
                   </span>
-                  <div className="mt-2">
+                  <div className="mt-2 sm:pb-8">
                     <div>
                       <div>
                         <button
@@ -224,6 +228,7 @@ export default function QuoteForm() {
                                 lg:w-96
                                 md:w-80
                                 sm:w-11/12
+                                font-medium
                                 h-12
                                 rounded-md
                                 bg-inputgray
@@ -249,6 +254,7 @@ export default function QuoteForm() {
                                 md:w-36
                                 sm:w-11/12
                                 h-12
+                                font-medium
                                 rounded-md
                                 bg-inputgray
                                 border-inputgray
@@ -267,6 +273,7 @@ export default function QuoteForm() {
                                   type="number"
                                   className="mt-1
                                 block
+                                font-medium
                                 lg:w-40
                                 md:w-36
                                 sm:w-11/12
@@ -292,7 +299,7 @@ export default function QuoteForm() {
         </div>
         <div className="lg:w-[30%] md:w-[40%] sm:w-[60%] mx-auto lg:mt-8 md:mt-6 text-center sm:mt-16">
           <div>
-            <button className="text-center font-medium bg-myblue rounded-2xl text-mywhite lg:text-xl md:text-xl sm:text-base lg:py-3 lg:px-14 md:py-3 md:px-8 sm:py-3 sm:px-10">
+            <button className="bg-myblue font-medium text-lg text-mywhite md:px-8 md:py-3 sm:px-8 sm:py-4 md:rounded-2xl sm:rounded-2xl">
               Submit Quote
             </button>
           </div>

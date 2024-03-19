@@ -21,6 +21,7 @@ module.exports = {
       inputgray: "#EDEDED",
       inputBlue: "#ebecf8",
       placeholderText: "#696969",
+      bgwhite: "#ffffff",
     },
     screens: {
       sm: "359px",
