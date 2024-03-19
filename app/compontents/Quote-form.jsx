@@ -186,7 +186,7 @@ export default function QuoteForm() {
                 </div>
                 <div className="mt-6">
                   <span className="text-myblack font-semibold text-base">
-                    Do you require our Pick-Up Services?
+                    Do you require our Collection Service?
                   </span>
                   <div className="mt-2 sm:pb-8">
                     <div>
