@@ -4,7 +4,7 @@ import TermsAndConditions from "../compontents/Terms-conditions";
 export default function TenFootContainerPage() {
   return (
     <div>
-      <div className="w-full bg-myblue lg:h-[80vh] md:h-[100vh] sm:h-svh lg:py-14 lg:px-14 antialiased">
+      <div className="w-full bg-myblue sm:h-svh lg:py-14 lg:px-14 antialiased">
         <div className="xl:w-10/12 lg:w-11/12 md:w-11/12  sm:w-11/12 mx-auto lg:py-[6%] md:py-[15%] sm:py-[25%]">
           <div className="lg:flex lg:flex-row xl:gap-32 lg:gap-10 md:gap-0 sm:gap-0 md:items-center">
             <div className="lg:basis-1/3">
