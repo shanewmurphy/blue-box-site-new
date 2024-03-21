@@ -7,7 +7,7 @@ export default function CollectionServicePage() {
         <div className="lg:w-9/12 md:w-10/12 laptop:w-11/12 sm:w-10/12 mx-auto">
           <div className="flex lg:flex-row md:flex-col sm:flex-col gap-6">
             <div className="basis-2/5">
-              <h2 className="text-mywhite lg:font-bold md:font-bold sm:font-semibold mt-[15%] lg:text-6xl laptop:text-4xl md:text-4xl sm:text-2xl">
+              <h2 className="text-mywhite font-bold mt-[15%] lg:text-6xl laptop:text-4xl md:text-4xl sm:text-2xl lg:text-left md:text-left sm:text-center">
                 Let us handle the logistics, saving you time and effort
               </h2>
             </div>
@@ -37,8 +37,8 @@ export default function CollectionServicePage() {
             </h2>
             <p className="font-semibold text-myblack lg:text-lg mt-4">
               Save time and energy with our professional collection service.
-              We'll pick up your belongings from your location and transport
-              them securely to our facility for storage.
+              We&apos;ll pick up your belongings from your location and
+              transport them securely to our facility for storage.
             </p>
           </div>
         </div>
