@@ -30,12 +30,12 @@ export default function CollectionServicePage() {
             </div>
           </div>
           <div className="basis-9/12">
-            <h2 className="font-semibold text-myblue lg:text-2xl md:text-2xl sm:text-2xl">
+            <h2 className="font-bold text-myblue text-2xl">
               Too busy to pack and transport your belongings to our facility?
               Our collection service makes storage effortless. Simply box your
               items, and our team will handle the rest.
             </h2>
-            <p className="font-semibold text-myblack lg:text-lg mt-4">
+            <p className="font-semibold text-myblack text-lg mt-3">
               Save time and energy with our professional collection service.
               We&apos;ll pick up your belongings from your location and
               transport them securely to our facility for storage.

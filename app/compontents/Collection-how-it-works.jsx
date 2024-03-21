@@ -70,12 +70,12 @@ export default function HowItWorks() {
                 }}
               >
                 <div className="lg:py-4 md:py-4 sm:py-3 cursor-pointer">
-                  <h4 className="font-semibold lg:text-xl md:text-xl sm:text-lg cursor-pointer">
+                  <h4 className="font-semibold lg:text-xl md:text-xl sm:text-xl cursor-pointer">
                     {item.title}
                   </h4>
                   <p
                     onClick={() => handleClick(index)}
-                    className="font-normal text-sm cursor-pointer"
+                    className="lg:font-normal md:font-medium sm:font-medium text-sm  cursor-pointer"
                     style={{
                       color: activeIndex === index ? "#3745b6" : "#828282",
                       cursor: "pointer",
