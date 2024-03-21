@@ -51,10 +51,7 @@ export default function StorageOptionsSwiper() {
             slidesPerView={"auto"}
             grabCursor={true}
             speed={900}
-            autoplay={{
-              delay: 8500,
-              disableOnInteraction: false,
-            }}
+            autoplay={false}
             pagination={{
               clickable: true,
             }}

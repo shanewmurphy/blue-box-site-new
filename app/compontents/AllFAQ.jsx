@@ -50,7 +50,7 @@ export default function AllFaqs() {
             </Tab.Panels>
           </Tab.Group>
           <div className="text-center">
-            <h5 className="lg:text-2xl md:text-2xl sm:text-xl text-myblue font-semibold mt-8">
+            <h5 className="lg:text-2xl md:text-2xl sm:text-xl text-myblue font-bold mt-8">
               Still have a question?
             </h5>
             <p className="lg:text-lg md:text-base sm:text-sm font-medium text-myblack mt-1">

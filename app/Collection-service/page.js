@@ -1,6 +1,12 @@
+"use client";
+
 import HowItWorks from "../compontents/Collection-how-it-works";
 import CollectionTermsConditions from "../compontents/Collection-terms-conditions";
 import ContactPageSection from "../compontents/Contact-page-section";
+import AllFaqs from "../compontents/AllFAQ";
+import CustomersReview from "../compontents/Testimonials";
+import Footer from "../compontents/Footer";
+
 export default function CollectionServicePage() {
   return (
     <div>
@@ -55,6 +61,15 @@ export default function CollectionServicePage() {
       </div>
       <div>
         <ContactPageSection />
+      </div>
+      <div>
+        <AllFaqs />
+      </div>
+      <div>
+        <CustomersReview />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
