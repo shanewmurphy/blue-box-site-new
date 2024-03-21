@@ -14,7 +14,7 @@ export default function AllFaqs() {
             </h3>
           </div>
           <Tab.Group selectedIndex={selectedIndex} onChange={setSelectedIndex}>
-            <div className="lg:w-[400px] md:w-[410px] sm:w-[340px] mx-auto bg-[#f4f4f6] px-4 py-3 rounded-xl">
+            <div className="lg:w-[400px] md:w-[410px] sm:w-[340px] mx-auto px-4 py-3 rounded-xl">
               <Tab.List>
                 <div className="flex justify-between">
                   <Tab

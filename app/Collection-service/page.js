@@ -1,5 +1,6 @@
 import HowItWorks from "../compontents/Collection-how-it-works";
-
+import CollectionTermsConditions from "../compontents/Collection-terms-conditions";
+import ContactPageSection from "../compontents/Contact-page-section";
 export default function CollectionServicePage() {
   return (
     <div>
@@ -43,8 +44,17 @@ export default function CollectionServicePage() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="my-[15%]">
+        <h4 className="text-2xl text-myblack font-bold lg:w-9/12 md:w-11/12 sm:w-11/12 mx-auto">
+          How Our Collection Service Works
+        </h4>
         <HowItWorks />
+      </div>
+      <div>
+        <CollectionTermsConditions />
+      </div>
+      <div>
+        <ContactPageSection />
       </div>
     </div>
   );

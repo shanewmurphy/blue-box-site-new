@@ -296,12 +296,12 @@ export default function QuoteForm() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="lg:w-[30%] md:w-[40%] sm:w-[60%] mx-auto lg:mt-24 md:mt-6 text-center sm:mt-16">
-          <div>
-            <button className="bg-myblue font-medium text-lg text-mywhite lg:py-4 lg:px-16 md:px-8 md:py-3 sm:px-8 sm:py-4 md:rounded-2xl sm:rounded-2xl">
-              Submit Quote
-            </button>
+          <div className="lg:w-[30%] md:w-[40%] sm:w-[60%] mx-auto lg:mt-24 md:mt-6 text-center sm:mt-16">
+            <div>
+              <button className="bg-myblue font-medium text-lg text-mywhite lg:py-4 lg:px-16 md:px-8 md:py-3 sm:px-8 sm:py-4 md:rounded-2xl sm:rounded-2xl">
+                Submit Quote
+              </button>
+            </div>
           </div>
         </div>
       </div>

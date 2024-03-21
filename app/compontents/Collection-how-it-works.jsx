@@ -58,12 +58,13 @@ export default function HowItWorks() {
   return (
     <div>
       <div className="lg:w-9/12 md:w-11/12 sm:w-11/12 mx-auto">
-        <div className="grid lg:grid-cols-2 lg:gap-16 md:gap-6 sm:gap-4 my-[20%]">
+        <div className="grid lg:grid-cols-2 lg:gap-16 md:gap-6 sm:gap-4">
           <div className="lg:w-[90%]">
             {data.map((item, index) => (
               <div
                 key={item.title}
                 onClick={() => handleClick(index)}
+                className="cursor-pointer"
                 style={{
                   color: activeIndex === index ? "#3745b6" : "#6E6E6E",
                   cursor: "pointer",
