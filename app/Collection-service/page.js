@@ -12,16 +12,19 @@ export default function CollectionServicePage() {
     <div>
       <div className="bg-myblue lg:py-36 md:py-14 sm:py-14 antialiased">
         <div className="lg:w-9/12 md:w-10/12 laptop:w-11/12 sm:w-10/12 mx-auto">
-          <div className="flex lg:flex-row md:flex-col sm:flex-col gap-6">
+          <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-12 md:gap-8 sm:gap-6">
             <div className="basis-2/5">
-              <h2 className="text-mywhite font-bold mt-[15%] lg:text-6xl laptop:text-4xl md:text-4xl sm:text-2xl lg:text-left md:text-left sm:text-center">
-                Let us handle the logistics, saving you time and effort
+              <h2 className="text-mywhite font-bold mt-[15%] lg:text-7xl laptop:text-4xl md:text-6xl sm:text-3xl lg:text-left md:text-center sm:text-center">
+                Let us handle the logistics
               </h2>
+              <h3 className="text-mywhite font-medium lg:text-2xl md:text-3xl sm:text-xl lg:text-left md:text-center sm:text-center mt-3">
+                Saving you time and effort
+              </h3>
             </div>
             <div className="basis-3/5">
               <picture>
                 <img
-                  src="/Collection-imgs/Van_Hero_B-min.png"
+                  src="/Collection-imgs/Collection-hero-img-min.png"
                   alt="Bluebox Collection Service"
                 />
               </picture>
@@ -42,7 +45,7 @@ export default function CollectionServicePage() {
               Our collection service makes storage effortless. Simply box your
               items, and our team will handle the rest.
             </h2>
-            <p className="font-semibold text-myblack text-lg mt-3">
+            <p className="font-semibold text-graytext text-lg mt-3">
               Save time and energy with our professional collection service.
               We&apos;ll pick up your belongings from your location and
               transport them securely to our facility for storage.

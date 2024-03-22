@@ -9,6 +9,7 @@ module.exports = {
     colors: {
       myblue: "#3745b6",
       mywhite: "#fcfcfc",
+      graytext: "#4C4C4C",
       myblack: "#3A3A3A",
       btnbgcolour: "#d7dae5",
       btntextblack: "#454546",
@@ -40,7 +41,7 @@ module.exports = {
       "7xl": [
         "3.2rem",
         {
-          lineHeight: "2.8rem",
+          lineHeight: "3.5rem",
         },
       ],
       "6xl": [

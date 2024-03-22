@@ -78,7 +78,9 @@ export default function FAQCollection() {
                 </Disclosure.Button>
                 <Disclosure.Panel>
                   <div className="lg:w-11/12 md:w-10/12 sm:w-11/12 mx-auto">
-                    <p className="text-sm font-medium mb-6">{faq.Answer}</p>
+                    <p className="text-sm font-medium mb-6 text-graytext">
+                      {faq.Answer}
+                    </p>
                   </div>
                 </Disclosure.Panel>
               </>
