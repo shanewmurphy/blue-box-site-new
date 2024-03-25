@@ -67,12 +67,42 @@ export default function FlyoutMenuMobile() {
                     </Transition.Child>
                     <div className="flex h-full flex-col overflow-y-scroll bg-mywhite py-6 shadow-xl">
                       <div className="px-4 sm:px-6">
-                        <Dialog.Title className="text-base font-semibold leading-6 text-gray-900">
-                          Panel title
-                        </Dialog.Title>
+                        <Dialog.Title className="text-base font-semibold leading-6 text-gray-900"></Dialog.Title>
                       </div>
-                      <div className="relative mt-6 flex-1 px-4 sm:px-6">
-                        {/* Your content */}
+                      <div className="relative mt-16 flex-1 px-4 sm:px-6">
+                        <h3 className="font-bold text-xl text-graytext">
+                          Container Sizes
+                        </h3>
+                        <div>
+                          <a href="/Ten-foot-container">
+                            <h4 className="indent-4 font-medium text-graytext text-lg mt-3">
+                              10FT Container
+                              <span className="block text-sm font-normal text-graytext">
+                                Compact and Convenient
+                              </span>
+                            </h4>
+                          </a>
+                        </div>
+                        <div>
+                          <a href="/Ten-foot-container">
+                            <h4 className="indent-4 font-medium text-graytext text-lg mt-3">
+                              20FT Container
+                              <span className="block text-sm font-normal text-graytext">
+                                Compact and Convenient
+                              </span>
+                            </h4>
+                          </a>
+                        </div>
+                        <div>
+                          <a href="/Ten-foot-container">
+                            <h4 className="indent-4 font-medium text-graytext text-lg mt-3">
+                              40FT Container
+                              <span className="block text-sm font-normal text-graytext">
+                                Compact and Convenient
+                              </span>
+                            </h4>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </Dialog.Panel>

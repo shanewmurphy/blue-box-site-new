@@ -6,7 +6,9 @@ export default function MobileNav() {
       <div className="absolute w-10/12 mx-auto h-14 bg-mywhite left-1/2 top-6 transform -translate-x-1/2 -translate-y-1/2 mt-6 rounded-3xl flex items-center xl:invisible lg:invisible md:invisible sm:visible">
         <div className="flex w-[95%] mx-auto items-center justify-between px-3">
           <div>
-            <LogoMobile />
+            <a href="/">
+              <LogoMobile />
+            </a>
           </div>
           <div className="font-bold">
             <FlyoutMenuMobile />
