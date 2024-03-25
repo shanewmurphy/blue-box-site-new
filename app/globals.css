@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden !important;
+}
+html {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden !important;
+}
 .icon:hover {
   fill: #ff0000; /* Change the color to red on hover */
 }
