@@ -4,14 +4,14 @@ import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
-export default function FlyoutMenuMobile() {
+export default function Example() {
   const [open, setOpen] = useState(false);
 
   return (
     <div>
       <div>
         <button
-          className="font-bold text-lg text-graytext flex items-center ring-0 active:ring-0 focus:outline-none"
+          className="font-bold text-lg text-zinc-600 flex items-center"
           onClick={() => setOpen(true)}
         >
           Menu
@@ -28,7 +28,7 @@ export default function FlyoutMenuMobile() {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="fixed inset-0 bg-mywhite bg-opacity-0 transition-opacity" />
+            <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-hidden">
@@ -61,48 +61,18 @@ export default function FlyoutMenuMobile() {
                         >
                           <span className="absolute -inset-2.5" />
                           <span className="sr-only">Close panel</span>
-                          <XMarkIcon className="h-8 w-8" aria-hidden="true" />
+                          <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                         </button>
                       </div>
                     </Transition.Child>
-                    <div className="flex h-full flex-col overflow-y-scroll bg-mywhite py-6 shadow-xl">
+                    <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
                       <div className="px-4 sm:px-6">
-                        <Dialog.Title className="text-base font-semibold leading-6 text-gray-900"></Dialog.Title>
+                        <Dialog.Title className="text-base font-semibold leading-6 text-gray-900">
+                          Panel title
+                        </Dialog.Title>
                       </div>
-                      <div className="relative mt-16 flex-1 px-4 sm:px-6">
-                        <h3 className="font-bold text-xl text-graytext">
-                          Container Sizes
-                        </h3>
-                        <div>
-                          <a href="/Ten-foot-container">
-                            <h4 className="indent-4 font-medium text-graytext text-lg mt-3">
-                              10FT Container
-                              <span className="block text-sm font-normal text-graytext">
-                                Compact and Convenient
-                              </span>
-                            </h4>
-                          </a>
-                        </div>
-                        <div>
-                          <a href="/Ten-foot-container">
-                            <h4 className="indent-4 font-medium text-graytext text-lg mt-3">
-                              20FT Container
-                              <span className="block text-sm font-normal text-graytext">
-                                Compact and Convenient
-                              </span>
-                            </h4>
-                          </a>
-                        </div>
-                        <div>
-                          <a href="/Ten-foot-container">
-                            <h4 className="indent-4 font-medium text-graytext text-lg mt-3">
-                              40FT Container
-                              <span className="block text-sm font-normal text-graytext">
-                                Compact and Convenient
-                              </span>
-                            </h4>
-                          </a>
-                        </div>
+                      <div className="relative mt-6 flex-1 px-4 sm:px-6">
+                        {/* Your content */}
                       </div>
                     </div>
                   </Dialog.Panel>
