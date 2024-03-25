@@ -5,7 +5,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function Example() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
     <div>
@@ -53,23 +53,21 @@ export default function Example() {
                       leaveFrom="opacity-100"
                       leaveTo="opacity-0"
                     >
-                      <div className="absolute left-0 top-0 flex pr-2 pt-4  sm:pr-4">
+                      <div className="absolute right-0 top-0 flex pr-8 pt-4  sm:pr-4">
                         <button
                           type="button"
                           className="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
                           onClick={() => setOpen(false)}
                         >
-                          <span className="absolute -inset-2.5" />
+                          <span className="absolute -inset-3.5" />
                           <span className="sr-only">Close panel</span>
-                          <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                          <XMarkIcon className="h-8 w-8" aria-hidden="true" />
                         </button>
                       </div>
                     </Transition.Child>
-                    <div className="flex h-full flex-col overflow-y-scroll bg-white shadow-xl">
+                    <div className="flex h-full flex-col overflow-y-scroll bg-mywhite shadow-xl">
                       <div className="">
-                        <Dialog.Title className="text-base font-semibold leading-6 text-gray-900">
-                          Panel title
-                        </Dialog.Title>
+                        <Dialog.Title className="text-base font-semibold leading-6 text-gray-900"></Dialog.Title>
                       </div>
                       <div className="relative overflow-hidden mt-6 flex-1">
                         {/* Your content */}
