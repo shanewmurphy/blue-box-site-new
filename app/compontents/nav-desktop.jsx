@@ -1,11 +1,27 @@
+import Link from "next/link";
+
+import FlyoutMenuDesktop from "./Flyout-menu-desktop";
 export default function DesktopNav() {
   return (
     <div className="absolute w-10/12 mx-auto h-14 bg-mywhite left-1/2 top-6 transform -translate-x-1/2 -translate-y-1/2 mt-6 rounded-3xl flex items-center xl:visible lg:visible md:visible sm:invisible">
       <div className="flex w-[95%] mx-auto items-center justify-between">
         <div className="">
-          <Logo />
+          <Link href="/">
+            <Logo />
+          </Link>
         </div>
-        <div>JJJ</div>
+        <div>
+          <div className="inline-flex text-myblack font-semibold text-base my-16 gap-10 antialiased">
+            <div>
+              <FlyoutMenuDesktop />
+            </div>
+            <div>
+              <a href="/Collection-service">Collection Service</a>
+            </div>
+            <div>Contact Us</div>
+          </div>
+        </div>
+        <div>KKKK</div>
       </div>
     </div>
   );

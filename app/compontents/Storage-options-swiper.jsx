@@ -11,7 +11,8 @@ const containerData = [
     imgURL: "/Storage-imgs/10ft-container.png",
     description:
       "Typically holds the contents of a studio apartment or a small office.",
-    containerPageURL: "/",
+    containerPageURL: "/Ten-foot-container",
+    alt: "10FT Container Size",
   },
   {
     id: "02",
@@ -19,6 +20,7 @@ const containerData = [
     imgURL: "/Storage-imgs/20ft-container.png",
     description: "Typically holds contents of one-to-two-bedroom apartment.",
     containerPageURL: "/",
+    alt: "10FT Container Size",
   },
   {
     id: "03",
@@ -26,6 +28,7 @@ const containerData = [
     imgURL: "/Storage-imgs/40ft-container.png",
     description: "Typically holds contents of three-to-four-bedroom house.",
     containerPageURL: "/",
+    alt: "40FT Container Size",
   },
 ];
 
@@ -84,7 +87,7 @@ export default function StorageOptionsSwiper() {
                       </div>
                       <div className="w-9/12 mx-auto">
                         <picture>
-                          <img src={destail.imgURL} />
+                          <img src={destail.imgURL} alt={destail.alt} />
                         </picture>
                       </div>
                       <div className="md:w-8/12 sm:w-11/12 mx-auto">

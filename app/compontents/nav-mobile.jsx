@@ -1,3 +1,5 @@
+import FlyoutMenuMobile from "./Flyout-menu-mobile";
+
 export default function MobileNav() {
   return (
     <div>
@@ -6,7 +8,9 @@ export default function MobileNav() {
           <div>
             <LogoMobile />
           </div>
-          <div className="font-bold">Menu</div>
+          <div className="font-bold">
+            <FlyoutMenuMobile />
+          </div>
         </div>
       </div>
     </div>

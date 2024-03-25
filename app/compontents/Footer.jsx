@@ -71,7 +71,7 @@ export default function Footer() {
                 <span className="inline-block align-middle pr-2">
                   <Twitter />
                 </span>
-                X
+                Twitter/X
               </p>
               <p className="lg:mt-3 md:mt-2 sm:mt-2">
                 <span className="inline-block align-middle pr-2">
