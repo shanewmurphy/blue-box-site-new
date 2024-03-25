@@ -11,7 +11,7 @@ export default function Example() {
     <div>
       <div>
         <button
-          className="font-bold text-lg text-zinc-600 flex items-center"
+          className="font-bold text-lg text-myblack flex items-center"
           onClick={() => setOpen(true)}
         >
           Menu
@@ -53,7 +53,7 @@ export default function Example() {
                       leaveFrom="opacity-100"
                       leaveTo="opacity-0"
                     >
-                      <div className="absolute right-0 top-0 flex pr-8 pt-4  sm:pr-4">
+                      <div className="absolute right-0 top-0 flex pr-16 pt-8 sm:pr-6">
                         <button
                           type="button"
                           className="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
@@ -61,7 +61,7 @@ export default function Example() {
                         >
                           <span className="absolute -inset-3.5" />
                           <span className="sr-only">Close panel</span>
-                          <XMarkIcon className="h-8 w-8" aria-hidden="true" />
+                          <XMarkIcon className="h-10 w-10" aria-hidden="true" />
                         </button>
                       </div>
                     </Transition.Child>
@@ -69,8 +69,33 @@ export default function Example() {
                       <div className="">
                         <Dialog.Title className="text-base font-semibold leading-6 text-gray-900"></Dialog.Title>
                       </div>
-                      <div className="relative overflow-hidden mt-6 flex-1">
-                        {/* Your content */}
+                      <div className="relative overflow-hidden mt-28 pl-8 flex-1">
+                        <div>
+                          <h4 className="text-myblack text-xl font-semibold">
+                            Container Sizes
+                          </h4>
+                        </div>
+                        <div>
+                          <a href="/Ten-foot-container">
+                            <h5 className="text-myblack indent-4 font-medium text-lg mt-4">
+                              10Ft Container
+                            </h5>
+                          </a>
+                        </div>
+                        <div>
+                          <a href="/">
+                            <h5 className="text-myblack indent-4 font-medium text-lg mt-4">
+                              20Ft Container
+                            </h5>
+                          </a>
+                        </div>
+                        <div>
+                          <a href="/Ten-foot-container">
+                            <h5 className="text-myblack indent-4 font-medium text-lg mt-4">
+                              40Ft Container
+                            </h5>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </Dialog.Panel>
