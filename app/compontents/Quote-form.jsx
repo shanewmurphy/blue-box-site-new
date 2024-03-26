@@ -10,7 +10,7 @@ export default function QuoteForm() {
   const [showDiv, setShowDiv] = useState(false);
   return (
     <div>
-      <div className="lg:w-8/12 md:w-11/12 sm:w-11/12 mx-auto lg:py-[15%] md:py-[10%] sm:py-[15%]">
+      <div className="lg:w-8/12 md:w-11/12 sm:w-11/12 mx-auto lg:py-[5%] md:py-[10%] sm:py-[15%]">
         <div className="">
           <div className="mb-7">
             <h2 className="text-center font-bold text-myblue xl:text-6xl lg:text-4xl md:text-5xl sm:text-2xl">
@@ -270,7 +270,7 @@ export default function QuoteForm() {
                                   Postal Code*
                                 </span>
                                 <input
-                                  type="number"
+                                  type="text"
                                   className="mt-1
                                 block
                                 font-medium
@@ -290,20 +290,25 @@ export default function QuoteForm() {
                           </div>
                         </div>
                       )}
+                      <div className="lg:mt-22 md:mt-16 lg:hidden md:hidden sm:block text-center sm:mt-16">
+                        <div>
+                          <button className="bg-myblue font-semibold text-lg text-mywhite lg:py-4 lg:px-16 md:py-3 md:px-8 sm:px-8 sm:py-3 md:rounded-2xl sm:rounded-2xl">
+                            Submit Quote
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="lg:w-[30%] md:w-[40%] sm:w-[60%] mx-auto lg:mt-24 md:mt-6 text-center sm:mt-16">
-            <div>
-              <button className="bg-myblue font-medium text-lg text-mywhite lg:py-4 lg:px-16 md:px-8 md:py-3 sm:px-8 sm:py-4 md:rounded-2xl sm:rounded-2xl">
-                Submit Quote
-              </button>
-            </div>
-          </div>
         </div>
+      </div>
+      <div className="w-[20%] mx-auto lg:block md:block sm:hidden">
+        <button className="bg-myblue font-semibold text-center text-lg text-mywhite lg:py-4 lg:px-16 md:py-3 md:px-8 sm:px-8 sm:py-3 md:rounded-2xl sm:rounded-2xl">
+          Submit Quote
+        </button>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ export default function CollectionServicePromo() {
       <div className="grid lg:grid-cols-2 lg:gap-24 laptop:gap-12 md:gap-8 sm:gap-4">
         <div>
           <div className="antialiased">
-            <h3 className="xl:text-5xl lg:text-3xl md:text-6xl sm:text-3xl text-mywhite font-bold">
+            <h3 className="xl:text-4xl lg:text-3xl md:text-6xl sm:text-3xl text-mywhite font-bold">
               Trust Our Collection Service
             </h3>
             <h4 className="font-semibold text-mywhite lg:text-xl md:text-xl sm:text-lg mt-2">
@@ -15,12 +15,14 @@ export default function CollectionServicePromo() {
               your items right from your doorstep, saving you time and effort.
             </p>
             <div className="mt-6">
-              <button className="font-semibold rounded-xl inline-flex items-center text-mywhite lg:text-base md:text-base sm:text-base cursor-pointer">
-                Learn More
-                <span className="pl-2 text-mywhite">
-                  <ArrowRight />
-                </span>
-              </button>
+              <a href="/Collection-service">
+                <button className="font-semibold lg:border-2 md:border sm:border border-mywhite py-2 px-6 rounded-xl inline-flex items-center text-mywhite lg:text-base md:text-base sm:text-base cursor-pointer">
+                  Learn More
+                  <span className="pl-2 text-mywhite">
+                    <ArrowRight />
+                  </span>
+                </button>
+              </a>
             </div>
             <div className="lg:mt-0 md:mt-0 sm:mt-24 lg:hidden md:hidden sm:block">
               <img

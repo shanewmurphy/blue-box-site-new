@@ -4,7 +4,7 @@ export default function TermsAndConditions() {
       <div className="w-10/12 mx-auto lg:py-[15%] md:py-[10%] sm:py-[15%] antialiased">
         <div className="flex lg:flex-row md:flex-col sm:flex-col gap-8">
           <div className="basis-1/5 bg-myblue rounded-lg">
-            <div className="flex items-center font-bold lg:text-left text-mywhite lg:h-[60vh] lg:text-3xl md:text-5xl sm:text-xl p-8">
+            <div className="flex items-center font-bold lg:text-left text-mywhite lg:h-[60vh] lg:text-3xl md:text-5xl sm:text-xl lg:p-8 md:p-6 sm:p-5">
               Terms & Conditions
             </div>
           </div>

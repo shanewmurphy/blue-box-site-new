@@ -28,12 +28,12 @@ export default function Example() {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+            <div className="fixed inset-0 bg-opacity-75 transition-opacity" />
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-hidden">
             <div className="absolute inset-0 overflow-hidden">
-              <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+              <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-24">
                 <Transition.Child
                   as={Fragment}
                   enter="transform transition ease-in-out duration-500 sm:duration-700"
@@ -56,7 +56,7 @@ export default function Example() {
                       <div className="absolute right-0 top-0 flex pr-16 pt-8 sm:pr-6">
                         <button
                           type="button"
-                          className="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
+                          className="relative rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
                           onClick={() => setOpen(false)}
                         >
                           <span className="absolute -inset-3.5" />
@@ -83,14 +83,14 @@ export default function Example() {
                           </a>
                         </div>
                         <div>
-                          <a href="/">
+                          <a href="/Twenty-foot-container">
                             <h5 className="text-myblack indent-4 font-medium text-lg mt-4">
                               20Ft Container
                             </h5>
                           </a>
                         </div>
                         <div>
-                          <a href="/Ten-foot-container">
+                          <a href="/Forty-foot-container">
                             <h5 className="text-myblack indent-4 font-medium text-lg mt-4">
                               40Ft Container
                             </h5>

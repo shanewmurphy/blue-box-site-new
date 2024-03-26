@@ -16,7 +16,11 @@ export default function DesktopNav() {
               <FlyoutMenuDesktop />
             </div>
             <div>
-              <a href="/Collection-service">Collection Service</a>
+              <a href="/Collection-service">
+                <h4 className="font-semibold text-base text-myblack hover:text-myblue">
+                  Collection Service
+                </h4>
+              </a>
             </div>
             <div>Contact Us</div>
           </div>
