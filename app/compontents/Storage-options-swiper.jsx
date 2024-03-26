@@ -19,8 +19,8 @@ const containerData = [
     size: "20FT",
     imgURL: "/Storage-imgs/20ft-container.png",
     description: "Typically holds contents of one-to-two-bedroom apartment.",
-    containerPageURL: "/",
-    alt: "10FT Container Size",
+    containerPageURL: "/Twenty-foot-container",
+    alt: "20FT Container Size",
   },
   {
     id: "03",

@@ -68,14 +68,18 @@ export default function DesktopStorageContainers() {
             <div className="mt-4">
               <div className="flex justify-evenly">
                 <div>
-                  <button className="bg-myblue border border-myblue hover:bg-hoverbtnblue px-5 py-2 rounded-xl text-mywhite text-sm font-semibold">
-                    Get Quote
-                  </button>
+                  <a href="/Ten-foot-container">
+                    <button className="bg-myblue border border-myblue hover:bg-hoverbtnblue px-5 py-2 rounded-xl text-mywhite text-sm font-semibold">
+                      Get Quote
+                    </button>
+                  </a>
                 </div>
                 <div>
-                  <button className="border border-myblue hover:hover:bg-myblue px-5 py-2 rounded-xl text-myblue hover:text-mywhite text-sm font-semibold">
-                    Learn More
-                  </button>
+                  <a href="/Ten-foot-container">
+                    <button className="border border-myblue hover:hover:bg-myblue px-5 py-2 rounded-xl text-myblue hover:text-mywhite text-sm font-semibold">
+                      Learn More
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -102,14 +106,18 @@ export default function DesktopStorageContainers() {
             <div className="mt-4">
               <div className="flex justify-evenly">
                 <div>
-                  <button className="bg-myblue border border-myblue hover:bg-hoverbtnblue px-5 py-2 rounded-xl text-mywhite text-sm font-semibold">
-                    Get Quote
-                  </button>
+                  <a href="/Twenty-foot-container">
+                    <button className="bg-myblue border border-myblue hover:bg-hoverbtnblue px-5 py-2 rounded-xl text-mywhite text-sm font-semibold">
+                      Get Quote
+                    </button>
+                  </a>
                 </div>
                 <div>
-                  <button className="border border-myblue hover:hover:bg-myblue px-5 py-2 rounded-xl text-myblue hover:text-mywhite text-sm font-semibold">
-                    Learn More
-                  </button>
+                  <a href="/Twenty-foot-container">
+                    <button className="border border-myblue hover:hover:bg-myblue px-5 py-2 rounded-xl text-myblue hover:text-mywhite text-sm font-semibold">
+                      Learn More
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

@@ -18,13 +18,13 @@ const solutions = [
   },
   {
     name: "20FT Container",
-    description: "Compact and Convenient",
-    href: "#",
+    description: "Spacious and Versatile",
+    href: "/Twenty-foot-container",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "40FT Container",
-    description: "Compact and Convenient",
+    description: "Generous and Capacious",
     href: "#",
     icon: FingerPrintIcon,
   },
