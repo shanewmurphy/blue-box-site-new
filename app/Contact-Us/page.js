@@ -1,4 +1,6 @@
 "use client";
+import AllFaqs from "../compontents/AllFAQ";
+import Footer from "../compontents/Footer";
 export default function ContactUsPage() {
   return (
     <div>
@@ -18,7 +20,7 @@ export default function ContactUsPage() {
         <div className="w-10/12 mx-auto lg:my-44 md:my-40 sm:my-24 antialiased">
           <div className="grid lg:grid-cols-2 sm:gap-32">
             <div>
-              <h2 className="lg:text-3xl md:text-3xl sm:text-2xl font-bold text-myblue">
+              <h2 className="lg:text-3xl md:text-3xl sm:text-3xl font-bold text-myblue">
                 Blue Box Storage
               </h2>
               <p className="font-medium lg:text-lg text-myblack mt-2">
@@ -31,14 +33,16 @@ export default function ContactUsPage() {
                 County Cork,
               </p>
               <p className="font-medium lg:text-lg text-myblack">Ireland.</p>
-              <h4 className="mt-8 font-bold text-myblack lg:text-2xl md:text-2xl sm:text-2xl">
+              <h4 className="mt-8 font-bold text-myblack lg:text-2xl md:text-2xl sm:text-xl">
                 Call: 0214 457 457
               </h4>
-              <h4 className="mt-2 font-medium text-myblack lg:text-xl">
+              <h4 className="mt-2 font-medium text-myblack text-xl">
                 info@blueboxstorage.com
               </h4>
-              <h5 className="mt-6 font-semibold lg:text-lg">Business Hours</h5>
-              <p className="font-medium lg:text-base">
+              <h5 className="mt-6 font-semibold lg:text-lg md:text-lg sm:text-lg">
+                Business Hours
+              </h5>
+              <p className="font-medium lg:text-base md:text-base sm:text-sm">
                 Monday - Friday: 9:00am to 17:30pm
               </p>
               <div className="mt-6">
@@ -59,7 +63,7 @@ export default function ContactUsPage() {
               </div>
             </div>
             <div>
-              <h5 className="text-myblack lg:text-2xl md:text-2xl sm:text-2xl font-semibold mb-6 lg:w-3/4">
+              <h5 className="text-myblack lg:text-2xl md:text-2xl sm:text-xl font-semibold mb-6 lg:w-3/4">
                 Drop us a message & we&apos;ll & get reply within 24hrs
               </h5>
               <div>
@@ -129,8 +133,19 @@ export default function ContactUsPage() {
                   rows="6"
                 ></textarea>
               </div>
+              <div className="mt-6">
+                <button className="py-2 px-10 rounded-md text-xl font-semibold bg-myblue text-mywhite">
+                  Send
+                </button>
+              </div>
             </div>
           </div>
+        </div>
+        <div>
+          <AllFaqs />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </div>
@@ -240,7 +255,7 @@ function LinkedIn() {
         fillRule="evenodd"
         clipRule="evenodd"
         d="M1.58333 0C0.708879 0 0 0.708879 0 1.58333V17.4167C0 18.2911 0.708879 19 1.58333 19H17.4167C18.2911 19 19 18.2911 19 17.4167V1.58333C19 0.708879 18.2911 0 17.4167 0H1.58333ZM5.82747 4.22509C5.83341 5.23447 5.07787 5.85642 4.1813 5.85197C3.33668 5.84751 2.60044 5.17509 2.60489 4.22658C2.60934 3.33447 3.31442 2.61751 4.23029 2.6383C5.1595 2.65908 5.83341 3.34041 5.82747 4.22509ZM9.79524 7.13741H7.13525H7.13376V16.1728H9.94513V15.962C9.94513 15.561 9.94481 15.1599 9.94449 14.7587C9.94365 13.6885 9.9427 12.6173 9.94819 11.5475C9.94967 11.2877 9.96149 11.0176 10.0283 10.7696C10.2791 9.84337 11.1119 9.24519 12.0411 9.39223C12.6379 9.48564 13.0326 9.83155 13.1989 10.3942C13.3014 10.7459 13.3474 11.1244 13.3518 11.4911C13.3639 12.5969 13.3622 13.7027 13.3605 14.8086C13.3599 15.1989 13.3592 15.5895 13.3592 15.9798V16.1713H16.1796V15.9546C16.1796 15.4775 16.1793 15.0005 16.179 14.5235C16.1785 13.3312 16.1779 12.139 16.181 10.9463C16.1825 10.4075 16.1247 9.8761 15.9925 9.35507C15.7951 8.58019 15.3869 7.93894 14.7234 7.47587C14.2529 7.14631 13.7363 6.93405 13.1589 6.9103C13.0931 6.90757 13.0268 6.90399 12.9602 6.90039C12.665 6.88443 12.3649 6.86822 12.0826 6.92514C11.2751 7.08694 10.5657 7.45655 10.0298 8.10814C9.96751 8.18288 9.9066 8.25877 9.81572 8.37203L9.79524 8.39768V7.13741ZM2.83062 16.1758H5.62867V7.14329H2.83062V16.1758Z"
-        fill="white"
+        fill="#3a3a3a"
       />
     </svg>
   );
