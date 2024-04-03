@@ -96,6 +96,13 @@ export default function Example() {
                             </h5>
                           </a>
                         </div>
+                        <div className="mt-8">
+                          <a href="/Contact-Us">
+                            <h5 className="text-myblack text-xl font-semibold mt-4">
+                              Contact Us
+                            </h5>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </Dialog.Panel>
