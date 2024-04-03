@@ -22,7 +22,13 @@ export default function DesktopNav() {
                 </h4>
               </a>
             </div>
-            <div>Contact Us</div>
+            <div>
+              <a href="/Contact-Us">
+                <h4 className="font-semibold text-base text-myblack hover:text-myblue">
+                  Contact Us
+                </h4>
+              </a>
+            </div>
           </div>
         </div>
         <div>KKKK</div>
