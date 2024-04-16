@@ -73,6 +73,7 @@ export default function TenFootContainerPage() {
                   <img
                     className="object-cover lg:float-right lg:h-[auto] md:h-[320px] md:mx-auto"
                     src="/10-ft-imgs/10ft-min.png"
+                    alt="10ft container"
                   />
                 </picture>
               </div>
