@@ -31,7 +31,7 @@ export default function DesktopNav() {
             </div>
           </div>
         </div>
-        <div>KKKK</div>
+        <div></div>
       </div>
     </div>
   );
