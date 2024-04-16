@@ -34,7 +34,7 @@ export default function Footer() {
                 Helpful Links
               </h6>
               <p className="lg:mt-1 md:mt-1 sm:mt-2">
-                <a href="/Ten-foot-conatiner" className="hover:underline">
+                <a href="/Ten-foot-container" className="hover:underline">
                   10ft Container
                 </a>
               </p>
