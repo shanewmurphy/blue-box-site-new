@@ -1,5 +1,5 @@
 "use client";
-
+import { Link } from "react-scroll";
 import ColllectionServicePage from "../compontents/Collection-service-page";
 import QuoteForm from "../compontents/Quote-form";
 import TermsAndConditions from "../compontents/Terms-conditions";
@@ -42,12 +42,20 @@ export default function TenFootContainerPage() {
                   </p>
                 </div>
                 <div className="mt-6 mb-3">
-                  <button className="bg-myblue text-mywhite font-semibold text-lg rounded-2xl py-3 px-8">
-                    Get Quote
-                    <span className="inline-flex align-middle pl-2">
-                      <Downarrowwhite />
-                    </span>
-                  </button>
+                  <Link
+                    to="Quote-anchor-section"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={500}
+                  >
+                    <button className="bg-myblue text-mywhite font-semibold text-lg rounded-2xl py-3 px-8">
+                      Get Quote
+                      <span className="inline-flex align-middle pl-2">
+                        <Downarrowwhite />
+                      </span>
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -91,7 +99,7 @@ export default function TenFootContainerPage() {
       <div>
         <ColllectionServicePage />
       </div>
-      <div>
+      <div id="Quote-anchor-section">
         <QuoteForm />
       </div>
       <div>

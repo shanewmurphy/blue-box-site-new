@@ -27,7 +27,7 @@ const containerData = [
     size: "40FT",
     imgURL: "/Storage-imgs/40ft-container.png",
     description: "Typically holds contents of three-to-four-bedroom house.",
-    containerPageURL: "/",
+    containerPageURL: "/Forty-foot-container",
     alt: "40FT Container Size",
   },
 ];
@@ -98,7 +98,7 @@ export default function StorageOptionsSwiper() {
                       <div className="grid grid-rows-2 justify-items-center gap-0 mt-8 pb-6">
                         <div>
                           <buttom className="px-10 py-3 rounded-xl text-mywhite text-base font-medium bg-myblue hover:bg-hoverbtnblue border-2 border-myblue">
-                            Get Quote
+                            <a href={destail.containerPageURL}>Get Quote</a>
                           </buttom>
                         </div>
                       </div>

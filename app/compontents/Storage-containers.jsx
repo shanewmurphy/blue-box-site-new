@@ -30,7 +30,7 @@ export default function DesktopStorageContainers() {
   }, []);
 
   return (
-    <div>
+    <div id="Desktop-scroll-to">
       <div className="lg:w-10/12 laptop:w-11/12 mb-32 xl:block lg:block laptop:hidden md:hidden sm:hidden mx-auto">
         <div className="mb-6">
           <h3 className="lg:text-6xl md:text-5xl sm:text-4xl text-myblue text-center font-bold mb-1">

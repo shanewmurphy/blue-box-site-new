@@ -33,11 +33,31 @@ export default function Footer() {
               <h6 className="font-semibold lg:text-lg md:text-lg sm:text-sm">
                 Helpful Links
               </h6>
-              <p className="lg:mt-1 md:mt-1 sm:mt-2">10ft Container</p>
-              <p className="lg:mt-1 md:mt-1 sm:mt-2">20ft Container</p>
-              <p className="lg:mt-1 md:mt-1 sm:mt-2">40ft Container</p>
-              <p className="lg:mt-1 md:mt-1 sm:mt-2">Collection Service</p>
-              <p className="lg:mt-1 md:mt-1 sm:mt-2">Customer Service</p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">
+                <a href="/Ten-foot-conatiner" className="hover:underline">
+                  10ft Container
+                </a>
+              </p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">
+                <a href="/Twenty-foot-container" className="hover:underline">
+                  20ft Container
+                </a>
+              </p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">
+                <a href="/Forty-foot-container" className="hover:underline">
+                  40ft Container
+                </a>
+              </p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">
+                <a href="/Collection-service" className="hover:underline">
+                  Collection Service
+                </a>
+              </p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">
+                <a href="/Contact-Us" className="hover:underline">
+                  Contact Us
+                </a>
+              </p>
             </div>
           </div>
           <div className="basis-2/4">
@@ -45,8 +65,12 @@ export default function Footer() {
               <h6 className="font-semibold lg:text-lg md:text-lg sm:text-sm">
                 Terms & Conditions
               </h6>
-              <p className="lg:mt-1 md:mt-1 sm:mt-2">Privay Policy</p>
-              <p className="lg:mt-1 md:mt-1 sm:mt-2">Terms of Service</p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">
+                <a href="/Privacy-Policy" className="hover:underline">
+                  Privay Policy
+                </a>
+              </p>
+              <p className="lg:mt-1 md:mt-1 sm:mt-2">Cookie Policy</p>
               <p className="lg:mt-1 md:mt-1 sm:mt-2">Rental Terms</p>
             </div>
           </div>
