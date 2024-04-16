@@ -44,13 +44,15 @@ export default function PrivacyPolicyPage() {
         </p>
         <p className="py-2">
           Affiliate means an entity that controls, is controlled by or is under
-          common control with a party, where "control" means ownership of 50% or
-          more of the shares, equity interest or other securities entitled to
-          vote for election of directors or other managing authority.
+          common control with a party, where &quot;control&quot; means ownership
+          of 50% or more of the shares, equity interest or other securities
+          entitled to vote for election of directors or other managing
+          authority.
         </p>
         <p className="py-2">
-          Company (referred to as either "the Company", "We", "Us" or "Our" in
-          this Agreement) refers to Blue Box Storage Cork.
+          Company (referred to as either &quot;the Company&quot;,
+          &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement)
+          refers to Blue Box Storage Cork.
         </p>
         <p className="py-2">
           Cookies are small files that are placed on Your computer, mobile
@@ -106,7 +108,7 @@ export default function PrivacyPolicyPage() {
         <p className="py-2">Usage Data</p>
         <h6 className="text-myblue text-lg py-2">Usage Data</h6>
         <p className="py-2">
-          Usage Data is collected automatically when using the Service.
+          Usage Data is collected automatically when using the Service.sss
         </p>
         <p className="py-2">
           Usage Data may include information such as Your Device&quot;s Internet
